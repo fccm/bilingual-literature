@@ -1,6 +1,8 @@
-Here are the work in progress of two bilingual books made from Project Gutenberg
+Here are the work in progress of three bilingual books made from Project Gutenberg and WikiSource
 
 http://www.gutenberg.org/
+
+https://en.wikisource.org/
 
 # David Copperfield by Charles Dickens
 
