@@ -22,3 +22,11 @@ https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_
 Get XML sources at:  
 https://github.com/fccm/bilingual-literature/tree/master/Lewis_Carroll/Alice_s_Adventures_in_Wonderland
 
+
+# Frankenstein, by Mary Shelley 
+
+Read online at:  
+https://fccm.github.io/bilingual-literature/Mary_Shelley/Frankenstein/Frankenstein-fr-en-00.html
+
+Get XML sources at:  
+https://github.com/fccm/bilingual-literature/tree/master/Mary_Shelley/Frankenstein
