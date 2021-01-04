@@ -1,8 +1,9 @@
-Here are the work in progress of three bilingual books made from Project Gutenberg and WikiSource
+Here are work in progress bilingual books made from public domain books available on
+[Project Gutenberg][1] and [WikiSource][2] websites.
 
-http://www.gutenberg.org/
+[1]: http://www.gutenberg.org/
+[2]: https://en.wikisource.org/
 
-https://en.wikisource.org/
 
 # David Copperfield by Charles Dickens
 
