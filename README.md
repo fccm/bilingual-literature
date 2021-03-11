@@ -10,11 +10,11 @@ Here are work in progress bilingual books made from public domain books availabl
 From: [gutenberg.org/ebooks/766](
 http://www.gutenberg.org/ebooks/766)
 
-[Get XML sources](
-https://github.com/fccm/bilingual-literature/tree/master/Charles_Dickens/David_Copperfield)
-
 [Read online](
 https://fccm.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-dual-en-fr-TOC.html)
+
+[Get XML sources](
+https://github.com/fccm/bilingual-literature/tree/master/Charles_Dickens/David_Copperfield)
 
 
 # Olivier Twist, by Charles Dickens
