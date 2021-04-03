@@ -34,11 +34,3 @@ https://fccm.github.io/bilingual-literature/Charles_Dickens/Oliver_Twist/Oliver_
 [Get XML sources](
 https://github.com/fccm/bilingual-literature/tree/master/Charles_Dickens/Oliver_Twist)
 
-
-# Frankenstein, by Mary Shelley 
-
-[Read online](
-https://fccm.github.io/bilingual-literature/Mary_Shelley/Frankenstein/Frankenstein-fr-en-00.html)
-
-[Get XML sources](
-https://github.com/fccm/bilingual-literature/tree/master/Mary_Shelley/Frankenstein)
