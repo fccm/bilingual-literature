@@ -14,6 +14,12 @@ https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_
 https://github.com/fccm/bilingual-literature/tree/master/Lewis_Carroll/Alice_s_Adventures_in_Wonderland)
 
 
+# Antony and Cleopatra, by William Shakespeare
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Shakespeare/Antony_and_Cleopatra/Antony_and_Cleopatra.html)
+
+
 # David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
