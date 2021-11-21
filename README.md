@@ -20,6 +20,12 @@ https://github.com/fccm/bilingual-literature/tree/master/Lewis_Carroll/Alice_s_A
 https://fccm.github.io/bilingual-literature/Shakespeare/Antony_and_Cleopatra/Antony_and_Cleopatra.html)
 
 
+# The Lost World, by Arthur Conan Doyle
+
+[Read online](
+https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_World.html)
+
+
 # David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
