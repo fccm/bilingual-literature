@@ -26,6 +26,12 @@ https://fccm.github.io/bilingual-literature/Shakespeare/Antony_and_Cleopatra/Ant
 https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_World.html)
 
 
+# The Hound of the Baskervilles, by Arthur Conan Doyle
+
+[Read online](
+https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
+
+
 # David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
