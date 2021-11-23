@@ -32,6 +32,12 @@ https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_Wo
 https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
 
 
+# Pride and Prejudice, by Jane Austen
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Jane_Austen/Pride_and_Prejudice/Pride_and_Prejudice-00.html)
+
+
 # David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
