@@ -58,6 +58,24 @@ https://fccm.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.ht
 https://fccm.github.io/bilingual-literature/Jane_Austen/Pride_and_Prejudice/Pride_and_Prejudice-00.html)
 
 
+## Little Red Riding Hood, by Charles Perrault
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Charles_Perrault/Little_Red_Riding_Hood/Little_Red_Riding_Hood.html)
+
+
+## Cinderella, by Charles Perrault
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Charles_Perrault/Cinderella/Cinderella.html)
+
+
+## Puss in Boots, by Charles Perrault
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_in_Boots.html)
+
+
 ## David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
