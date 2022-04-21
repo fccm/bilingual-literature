@@ -52,6 +52,12 @@ https://fccm.github.io/bilingual-literature/A_Dumas/The_Three_Musketeers/The_Thr
 https://fccm.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.html)
 
 
+## The Confessions of Arsene Lupin, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.html)
+
+
 ## Pride and Prejudice, by Jane Austen
 
 [Read online](
