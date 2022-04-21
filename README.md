@@ -34,6 +34,12 @@ https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_Wo
 https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
 
 
+## The Three Musketeers, by Alexandre Dumas
+
+[Read online](
+https://fccm.github.io/bilingual-literature/A_Dumas/The_Three_Musketeers/The_Three_Musketeers.html)
+
+
 ## Pride and Prejudice, by Jane Austen
 
 [Read online](
