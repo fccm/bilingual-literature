@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pride and Prejudice, by Jane Austen</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+
+<style type="text/css" media="screen"> 
+body {
+  color:#BBC;
+  background:#EEE;
+  padding:1em 1em 3em 2em;
+  margin:0;
+}
+td {
+  border:1px solid #ABC;
+  padding:0;
+  margin:1px;
+}
+p { padding:0; text-indent:0.8em; }
+
+h1 { font-size:1.3em; padding-left:0.2em; }
+h2 { font-size:0.9em; padding-left:2.0em; }
+
+td.en p, h1.en, h2.en, h3.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+td.fr p, h1.fr, h2.fr, h3.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
+
+td.en p a { color:#420; }
+td.fr p a { color:#024; }
+
+td.en p a:hover { background:#FFF; }
+td.fr p a:hover { background:#FFF; }
+
+h4.en, h5.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
+
+h6.en { margin:0.4em 1.8em 0.4em 4.2em; color:#420; }
+h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
+
+table {
+  width: 82%;
+}
+td {
+  width: 50%;
+  vertical-align: top;
+}
+</style>
+
+<style type="text/css" media="print">
+body { background:#FFF; color:#000; }
+a { text-decoration:none; color:#000; }
+h1, h2, h3, h4 { color:#000; }
+h1 { font-size:1.3em; }
+h2 { font-size:0.9em; }
+table { width:100%; }
+td {
+  border:1px solid #000;
+  padding:0;
+  margin:1px;
+  width:50%;
+}
+td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
+td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
+td p { font-size:0.8em; text-indent:0.8em; }
+</style>
+
+</head>
+<body>
+
+<!--
+  From:
+    https://en.wikisource.org/wiki/Pride_and_Prejudice
+    https://fr.wikisource.org/wiki/Orgueil_et_Pr%C3%A9vention_(1822,_r%C3%A9-%C3%A9dition_1966)
+-->
+
+<table>
+
+<tr>
+  <td class="fr">
+    <h1 class="fr">Orgueil et Préjugé</h1>
+  </td>
+  <td class="en">
+    <h1 class="en">Pride and Prejudice</h1>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h2 class="fr">de Jane Austen</h2>
+  </td>
+  <td class="en">
+    <h2 class="en">by Jane Austen</h2>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h6 class="fr">Traduction de Eloïse Perks</h6>
+    <h6 class="fr">(trad. 1822 — republiée 1966)</h6>
+  </td>
+  <td class="en">
+    <h6 class="en">(1817)</h6>
+  </td>
+</tr>
+
+</table>
+
+&nbsp; <br/>
+
+<table>
+
+<tr>
+  <td class="fr">
+    <h3 class="fr">Chapitre 7</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">Chapter 7</h3>
+  </td>
+</tr>
+
+
+<tr>
+  <td class="fr">
+    <p>La fortune de M. Bennet consistait presque entièrement 
+    en une terre de deux mille livres sterling de rente,
+    qui, malheureusement pour ses filles, était substituée, au
+    défaut d’héritier mâle, à un parent éloigné&#160;; et celle de leur
+    mère, quoique considérable pour son état, ne devait les
+    dédommager que faiblement. Son père, procureur à Meryton, 
+    lui avait laissé en mourant quatre mille livres sterling.</p>
+  </td>
+  <td class="en">
+    <p>Mr. Bennet's property consisted almost entirely in an estate of two thousand
+    a-year, which, unfortunately for his daughters, was entailed, in default of
+    heirs male, on a distant relation; and their mother's fortune, though ample for
+    her situation in life, could but ill supply the deficiency of his. Her father
+    had been an attorney in Meryton, and had left her four thousand pounds.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Elle avait une sœur mariée à un M. Philips, jadis
+    clerc de leur père, depuis son successeur, et un frère établi
+    à Londres dans une haute branche de commerce.</p>
+  </td>
+  <td class="en">
+    <p>She had a sister married to a Mr. Philips, who had been a clerk to their
+    father, and succeeded him in the business, and a brother settled in London in
+    a respectable line of trade.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Le village de Longbourn n’était qu’à un mille de
+    Meryton, distance fort commode pour les demoiselles
+    Bennet, qui y allaient ordinairement, deux ou trois fois par
+    semaine, rendre visite à leur tante et à un magasin de modes
+    qui se trouvait de l’autre côté de la rue. Les deux plus
+    jeunes de la famille, Catherine et Lydia, s’y rendaient encore
+    plus fréquemment&#160;; leur imagination était moins occupée
+    que celle de leurs sœurs et, lorsqu’elles n’avaient rien de
+    mieux à faire, une promenade à Meryton venait fort à
+    propos pour les amuser durant la matinée et leur fournir
+    un sujet de conversation pour l’après-midi.</p>
+    <p>Leur tante leur apprenait toujours quelques nouvelles,
+    et en ce moment elles se trouvaient agréablement occupées
+    par l’arrivée d’un régiment qui devait passer l’hiver dans
+    les environs, et dont Meryton était le quartier général.</p>
+  </td>
+  <td class="en">
+    <p>The village of Longbourn was only one mile from Meryton; a most convenient
+    distance for the young ladies, who were usually tempted thither three or four
+    times a week, to pay their duty to their aunt and to a milliner's shop just
+    over the way. The two youngest of the family, Catherine and Lydia, were
+    particularly frequent in these attentions; their minds were more vacant
+    than their sisters', and when nothing better offered, a walk to Meryton was
+    necessary to amuse their morning hours and furnish conversation for the
+    evening; and however bare of news the country in general might be, they always
+    contrived to learn some from their aunt. At present, indeed, they were well
+    supplied both with news and happiness by the recent arrival of a militia
+    regiment in the neighbourhood; it was to remain the whole winter, and Meryton
+    was the head-quarters.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Les visites à Mme Philips devinrent donc la source
+    des nouvelles les plus intéressantes&#160;; chaque jour elles
+    apprenaient le nom de quelques officiers, puis elles surent
+    leurs demeures, et enfin elles firent connaissance avec eux.
+    M. Philips les voyait tous, et par là il procura à ses nièces
+    d’intéressantes relations qui jusqu’alors leur avaient été
+    inconnues. Elles ne parlaient plus que de militaires, et
+    la fortune de M. Bingley, dont l’idée seule faisait sourire
+    leur mère, n’était à leurs yeux qu’une bagatelle, comparée
+    à l’uniforme d’un sous-lieutenant.</p>
+  </td>
+  <td class="en">
+    <p>Their visits to Mrs. Philips were now productive of the most interesting
+    intelligence.—Every day added something to their knowledge of the officers'
+    names and connections. Their lodgings were not long a secret, and at length
+    they began to know the officers themselves. Mr. Philips visited them all, and
+    this opened to his nieces a source of felicity unknown before. They could talk
+    of nothing but officers; and Mr. Bingley's large fortune, the mention of which
+    gave animation to their mother, was worthless in their eyes when opposed to the
+    regimentals of an ensign.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Un matin, après avoir écouté leurs épanchements à
+    ce sujet, M. Bennet leur dit froidement&#160;:</p>
+  </td>
+  <td class="en">
+    <p>After listening one morning to their effusions on this subject, Mr. Bennet
+    coolly observed,</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;Tout ce que je puis conclure de vos discours, c’est
+    que vous êtes bien deux des plus folles filles du pays&#160;; il y
+    a longtemps que je m’en doutais, j’en suis maintenant
+    convaincu.&#160;»</p>
+  </td>
+  <td class="en">
+    <p>"From all that I can collect by your manner of talking, you must be two of
+    the silliest girls in the country. I have suspected it some time, but I am now
+    convinced."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Catherine fut déconcertée et ne répondit pas&#160;; mais
+    Lydia, avec une parfaite indifférence, continua à parler
+    avec emphase du capitaine Carter et de l’espoir qu’elle
+    avait de le rencontrer encore avant qu’il ne partît pour
+    Londres.</p>
+  </td>
+  <td class="en">
+    <p>Catherine was disconcerted, and made no answer; but Lydia, with perfect
+    indifference, continued to express her admiration of Captain Carter, and her
+    hope of seeing him in the course of the day, as he was going the next morning
+    to London.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;Je suis étonnée, mon cher, dit Mme Bennet,
+    que vous soyez si prompt à taxer vos enfants de folie&#160;; si
+    je voulais juger légèrement des enfants de quelqu’un, ce
+    ne serait pas des miens.</p>
+  </td>
+  <td class="en">
+    <p>"I am astonished, my dear," said Mrs. Bennet, "that you should be so ready to
+    think your own children silly. If I wished to think slightingly of anybody's
+    children, it should not be of my own, however."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Si mes enfants extravaguent, j’espère toujours
+    m’en apercevoir.</p>
+  </td>
+  <td class="en">
+    <p>"If my children are silly, I must hope to be always sensible of it."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Oui, mais il se trouve qu’elles sont toutes très
+    spirituelles.</p>
+  </td>
+  <td class="en">
+    <p>"Yes—but as it happens, they are all of them very clever."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Voilà, je l’espère, le seul point sur lequel nous ne
+    nous accordons pas, ma femme&#160;: j’avais espéré que nos
+    sentiments se rencontreraient en tout, mais il faut ici que
+    mon opinion diffère de la vôtre, car je pense que nos deux
+    plus jeunes filles sont d’un ridicule achevé.</p>
+  </td>
+  <td class="en">
+    <p>"This is the only point, I flatter myself, on which we do not agree. I had
+    hoped that our sentiments coincided in every particular, but I must so far
+    differ from you as to think our two youngest daughters uncommonly foolish."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Mon cher monsieur Bennet, voulez-vous que des
+    enfants de cet âge aient autant de sens que leurs parents&#160;?
+    Je me rappelle le temps où j’aimais moi-même un habit
+    rouge, et je ne dis pas qu’au fond du cœur je n’aie encore
+    un faible pour les militaires&#160;: si un jeune colonel, avec
+    cinq ou six mille livres sterling de rente, me demandait une de
+    mes filles, j’aurais peine à lui dire non. L’autre soir, le
+    colonel Forster avait, je vous assure, fort bonne mine avec
+    son uniforme.&#160;»</p>
+  </td>
+  <td class="en">
+    <p>"My dear Mr. Bennet, you must not expect such girls to have the sense of
+    their father and mother. When they get to our age, I dare say they will not
+    think about officers any more than we do. I remember the time when I liked a
+    red coat myself very well—and indeed so I do still at my heart; and if a
+    smart young colonel, with five or six thousand a-year, should want one of my
+    girls, I shall not say nay to him; and I thought Colonel Forster looked very
+    becoming the other night at Sir William's in his regimentals."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>&nbsp;</p>
+  </td>
+  <td class="en">
+    <p>"Mamma," cried Lydia, "my aunt says that Colonel Forster and Captain Carter
+    do not go so often to Miss Watson's as they did when they first came; she sees
+    them now very often standing in Clarke's library."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Ici, elle fut interrompue par un domestique qui apportait 
+    un billet pour Mlle Bennet&#160;: il venait de Netherfield,
+    et on attendait une réponse.</p>
+  </td>
+  <td class="en">
+    <p>Mrs. Bennet was prevented replying by the entrance of the footman with a note
+    for Miss Bennet; it came from Netherfield, and the servant waited for an
+    answer. Mrs. Bennet's eyes sparkled with pleasure, and she was eagerly calling
+    out, while her daughter read,</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;Eh bien, Hélen, qui est-ce qui vous écrit&#160;? Que vous
+    dit-on&#160;? Eh bien donc, Hélen, dépêchez-vous de lire&#160;; allons,
+    ma chère&#160;!</p>
+  </td>
+  <td class="en">
+    <p>"Well, Jane, who is it from? what is it about? what does he say? well, Jane,
+    make haste and tell us; make haste, my love."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— C’est de miss Bingley, dit Hélen, et elle lut à haute
+    voix&#160;:</p>
+    <p><br /></p>
+  </td>
+  <td class="en">
+    <p>"It is from Miss Bingley," said Jane, and then read it aloud.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p style='text-indent:6.0em;'>Ma chère amie,</p>
+    <p>Si vous n’êtes assez complaisante pour venir dîner
+    avec Louisa et moi, vous nous mettrez dans le cas de nous
+    détester le reste de nos jours, car une journée de tête à tête
+    entre deux femmes ne peut finir sans querelles. Venez après
+    la réception de la présente. Mon frère et ces messieurs
+    dînent avec les officiers. Toute à vous.
+    </p>
+    <p style='text-indent:8.0em;'>Caroline Bingley.</p>
+    <p><br /></p>
+  </td>
+  <td class="en">
+    <p> &nbsp; &nbsp; "My dear Friend,</p>
+    <p>"If you are not so compassionate as to dine to-day with Louisa and me, we
+    shall be in danger of hating each other for the rest of our lives, for a whole
+    day's tête–à–tête between two women can never end without a quarrel.
+    Come as soon as you can on receipt of this. My brother and the gentlemen are to
+    dine with the officers. Yours ever,
+    </p>
+    <p> &nbsp; &nbsp;
+    "<span class="smallcaps" style="font-variant:small-caps">Caroline Bingley</span>."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Avec les officiers&#160;! s’écria Lydia, je m’étonne que
+    ma tante ne nous l’ait pas dit.</p>
+  </td>
+  <td class="en">
+    <p>"With the officers!" cried Lydia. "I wonder my aunt did not tell us of
+    <i>that</i>."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Ils dînent en ville, dit Mme Bennet, c’est bien
+    malheureux&#160;!</p>
+  </td>
+  <td class="en">
+    <p>"Dining out," said Mrs. Bennet—"that is very unlucky."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Pourrai-je avoir la voiture&#160;? dit Hélen.</p>
+  </td>
+  <td class="en">
+    <p>"Can I have the carriage?" said Jane.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Non, ma chère&#160;; vous ferez mieux d’aller à cheval, 
+    car le temps tourne à la pluie, et alors vous serez
+    obligée de rester jusqu’à demain.</p>
+  </td>
+  <td class="en">
+    <p>"No, my dear, you had better go on horseback, because it seems likely to
+    rain; and then you must stay all night."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Votre plan serait bon, maman, dit Élisabeth, si
+    vous étiez sûre qu’on ne proposât pas de la reconduire.</p>
+  </td>
+  <td class="en">
+    <p>"That would be a good scheme," said Elizabeth, "if you were sure that they
+    would not offer to send her home."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Oh&#160;! mais ces messieurs iront à Meryton dans la
+    voiture de M. Bingley, et les Hurst n’ont point de chevaux. </p>
+  </td>
+  <td class="en">
+    <p>"Oh! but the gentlemen will have Mr. Bingley's chaise to go to Meryton; and
+    the Hursts have no horses to theirs."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— J’aimerais mieux y aller en voiture.</p>
+  </td>
+  <td class="en">
+    <p>"I had much rather go in the coach."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Votre père a besoin des chevaux, j’en suis sûre&#160;;
+    ils sont utiles à la ferme&#160;: n’est-ce pas vrai, monsieur
+    Bennet&#160;?</p>
+  </td>
+  <td class="en">
+    <p>"But, my dear, your father cannot spare the horses, I am sure. They are
+    wanted in the farm, Mr. Bennet, are not they?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— On les occupe à la ferme bien plus souvent que
+    je ne le voudrais pour mon propre usage.</p>
+  </td>
+  <td class="en">
+    <p>"They are wanted in the farm much oftener than I can get them."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Mais s’ils y sont aujourd’hui, dit Élisabeth, maman 
+    sera satisfaite.&#160;»</p>
+  </td>
+  <td class="en">
+    <p>"But if you have got them to-day," said Elizabeth, "my mother's purpose will
+    be answered."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Son père répondit enfin qu’on ne pouvait se servir
+    alors de la voiture. Hélen fut donc obligée d’aller à cheval,
+    et sa mère l’accompagna jusqu’à la grille, en l’assurant
+    avec joie qu’elle aurait du mauvais temps. Ses espérances
+    furent réalisées&#160;: Hélen ne faisait que de partir quand
+    survint une forte pluie. Ses sœurs étaient très inquiètes, sa
+    mère très contente. La pluie continua toute la soirée&#160;:
+    Hélen ne put revenir.</p>
+  </td>
+  <td class="en">
+    <p>She did at last extort from her father an acknowledgment that the horses were
+    engaged, Jane was therefore obliged to go on horseback, and her mother attended
+    her to the door with many cheerful prognostics of a bad day. Her hopes were
+    answered; Jane had not been gone long before it rained hard. Her sisters were
+    uneasy for her, but her mother was delighted. The rain continued the whole
+    evening without intermission; Jane certainly could not come back.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— C’est une brillante idée que j’ai eue là&#160;», répéta
+    plusieurs fois Mme Bennet pendant l’après-midi.</p>
+    <p>Mais ce ne fut que le lendemain matin qu’elle connut
+    l’heureux effet de son adresse. Le déjeuner finissait lorsqu’un 
+    domestique apporta de Netherfield le billet suivant&#160;:</p>
+  </td>
+  <td class="en">
+    <p>"This was a lucky idea of mine, indeed!" said Mrs. Bennet, more than once, as
+    if the credit of making it rain were all her own.—Till the next morning,
+    however, she was not aware of all the felicity of her contrivance. Breakfast
+    was scarcely over when a servant from Netherfield brought the following note
+    for Elizabeth:</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p style='text-indent:6.0em;'>Ma bien chère Lizzy,</p>
+    <p>Je suis réellement malade&#160;; j’ai été mouillée jusqu’aux
+    os, hier matin, et n’ai pas fermé l’œil de toute la nuit&#160;;
+    mes bonnes amies ne veulent pas entendre parler de mon
+    retour que je ne sois rétablie. Elles ont absolument voulu
+    envoyer chercher M. Jones&#160;: ainsi, ne soyez point inquiets
+    si vous entendez dire qu’il m’est venu voir&#160;; à l’exception
+    d’un mal de gorge et de tête, je n’ai rien d’alarmant.</p>
+    <p style='text-indent:8.0em;'>Toute à vous, etc.</p>
+    <p><br /></p>
+  </td>
+  <td class="en">
+    <p> &nbsp; &nbsp; &nbsp; "My dearest Lizzy,</p>
+    <p>"I find myself very unwell this morning, which, I suppose, is to be imputed
+    to my getting wet through yesterday. My kind friends will not hear of my
+    returning till I am better. They insist also on my seeing Mr. Jones—therefore
+    do not be alarmed if you should hear of his having been to me—and, excepting
+    a sore-throat and head-ache, there is not much the matter with me.</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; "Yours, &amp;c."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;Eh bien, ma chère, dit M. Bennet après qu’Élisabeth
+    eut communiqué cette nouvelle, si votre fille a une sérieuse
+    maladie et qu’elle en meure, ce sera une consolation de
+    savoir qu’elle l’avait gagnée par votre faute et afin de voir
+    M. Bingley.</p>
+  </td>
+  <td class="en">
+    <p>"Well, my dear," said Mr. Bennet, when Elizabeth had read the note aloud, "if
+    your daughter should have a dangerous fit of illness, if she should die, it
+    would be a comfort to know that it was all in pursuit of Mr. Bingley, and under
+    your orders."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Oh&#160;! je n’en suis pas inquiète&#160;; on ne meurt point
+    d’un petit rhume&#160;: je suis sûre qu’on prendra bien soin
+    d’elle&#160;; tant qu’elle restera là tout ira bien. Si je pouvais
+    avoir la voiture, j’irais la voir.&#160;»</p>
+  </td>
+  <td class="en">
+    <p>"Oh! I am not afraid of her dying. People do not die of little trifling
+    colds. She will be taken good care of. As long as she stays there, it is all
+    very well. I would go and see her if I could have the carriage."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Élisabeth, étant vraiment inquiète, se décida à l’aller
+    trouver, bien qu’elle ne pût obtenir la voiture et que,
+    n’aimant point à monter à cheval, aller à pied fût sa seule
+    ressource&#160;; elle déclara qu’elle y était décidée.</p>
+  </td>
+  <td class="en">
+    <p>Elizabeth, feeling really anxious, was determined to go to her, though the
+    carriage was not to be had; and as she was no horsewoman, walking was her only
+    alternative. She declared her resolution.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;Comment pouvez-vous penser à une pareille chose&#160;?
+    Les chemins sont affreux&#160;; vous ferez horreur en arrivant
+    à Netherfield, dit Mme Bennet.</p>
+  </td>
+  <td class="en">
+    <p>"How can you be so silly," cried her mother, "as to think of such a thing, in
+    all this dirt! You will not be fit to be seen when you get there."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Je ne ferai pas horreur à Hélen, et c’est elle seule
+    que je veux voir.</p>
+  </td>
+  <td class="en">
+    <p>"I shall be very fit to see Jane—which is all I want."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Est-ce là, Lizzy, dit son père, une manière de me
+    demander les chevaux&#160;?</p>
+  </td>
+  <td class="en">
+    <p>"Is this a hint to me, Lizzy," said her father, "to send for the horses?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Non, je ne souhaite nullement éviter cette course.
+    Qu’est-ce que trois milles lorsqu’on a un but&#160;? Je serai de
+    retour pour dîner.</p>
+  </td>
+  <td class="en">
+    <p>"No, indeed, I do not wish to avoid the walk. The distance is nothing when
+    one has a motive; only three miles. I shall be back by dinner."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— J’admire la vivacité de vos sentiments, observa
+    Mary, mais en tout il faut un peu écouter la raison, et votre
+    dessein, selon moi, est parfaitement ridicule.</p>
+  </td>
+  <td class="en">
+    <p>"I admire the activity of your benevolence," observed Mary, "but every
+    impulse of feeling should be guided by reason; and, in my opinion, exertion
+    should always be in proportion to what is required."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>— Nous irons avec vous jusqu’à Meryton&#160;», dirent
+    Catherine et Lydia.</p>
+    <p>Élisabeth y consentit, et ces trois demoiselles se mirent
+    en route.</p>
+  </td>
+  <td class="en">
+    <p>"We will go as far as Meryton with you," said Catherine and Lydia. Elizabeth
+    accepted their company, and the three young ladies set off together.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>«&#160;En nous pressant un peu, dit Lydia, nous
+    pourrons arriver assez à temps pour voir partir le capitaine 
+    Carter.&#160;»</p>
+  </td>
+  <td class="en">
+    <p>"If we make haste," said Lydia, as they walked along, "perhaps we may see
+    something of Captain Carter before he goes."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>À Meryton, elles se séparèrent&#160;; les deux plus jeunes
+    se rendirent chez leur tante, et Élisabeth continua seule son
+    chemin. Elle allait d’un bon pas, sautant les fossés, traversant 
+    les prés avec une activité toujours plus animée, et se
+    trouva enfin près de la maison, très fatiguée, couverte de
+    boue et le teint animé par la marche et l’inquiétude.</p>
+  </td>
+  <td class="en">
+    <p>In Meryton they parted; the two youngest repaired to the lodgings of one of
+    the officers' wives, and Elizabeth continued her walk alone, crossing field
+    after field at a quick pace, jumping over stiles and springing over puddles
+    with impatient activity, and finding herself at last within view of the house,
+    with weary ankles, dirty stockings, and a face glowing with the warmth of
+    exercise.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>On la fit entrer dans la salle à manger, où toute la
+    société, hormis Hélen, était réunie&#160;; sa venue causa un
+    mouvement général de surprise.</p>
+    <p>Avoir marché trois milles, par un temps si mauvais,
+    de si bonne heure et toute seule, était pour Mme Hurst
+    et miss Bingley une chose presque incroyable. Élisabeth
+    s’aperçut facilement qu’elles trouvaient cette démarche
+    ridicule. Elles la reçurent néanmoins avec beaucoup de
+    civilité, et dans l’accueil de leur frère il y avait un peu plus
+    que de la politesse&#160;: il était content et attentif. M. Darcy
+    parla peu, et M. Hurst ne dit pas un mot. Les pensées du
+    premier étaient partagées entre l’admiration de l’éclat que
+    l’exercice avait donné au teint d’Élisabeth et le doute que
+    son motif pût la justifier d’être venue toute seule. Le second
+    n’était occupé que de son déjeuner.</p>
+  </td>
+  <td class="en">
+    <p>She was shown into the breakfast-parlour, where all but Jane were assembled,
+    and where her appearance created a great deal of surprize.—That she should
+    have walked three miles so early in the day, in such dirty weather, and by
+    herself, was almost incredible to Mrs. Hurst and Miss Bingley; and Elizabeth
+    was convinced that they held her in contempt for it. She was received, however,
+    very politely by them; and in their brother's manners there was something
+    better than politeness; there was good humour and kindness.—Mr. Darcy said
+    very little, and Mr. Hurst nothing at all. The former was divided between
+    admiration of the brilliancy which exercise had given to her complexion, and
+    doubt as to the occasion's justifying her coming so far alone. The latter was
+    thinking only of his breakfast.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Aux questions qu’elle posa sur la santé de sa sœur, elle
+    ne reçut pas de réponse bien satisfaisante&#160;: Mlle Bennet
+    avait eu de la fièvre et, quoique levée, n’était pas assez bien
+    pour quitter la chambre. Élisabeth désira d’y être conduite
+    sur-le-champ, et Hélen, qui n’avait osé prier sa sœur de
+    venir, par crainte de causer trop d’inquiétude ou de dérangement, 
+    témoigna le plus vif plaisir en la voyant. Elle n’était
+    pas en état de parler beaucoup&#160;; et quand Mlle Bingley les
+    laissa seules, elle ne put que dire à sa sœur combien elle
+    était reconnaissante de toutes les bontés que ces dames
+    avaient pour elle. Élisabeth s’occupa en silence de la soigner.</p>
+  </td>
+  <td class="en">
+    <p>Her inquiries after her sister were not very favourably answered. Miss Bennet
+    had slept ill, and though up, was very feverish, and not well enough to leave
+    her room. Elizabeth was glad to be taken to her immediately; and Jane, who had
+    only been withheld by the fear of giving alarm or inconvenience from expressing
+    in her note how much she longed for such a visit, was delighted at her
+    entrance. She was not equal, however, to much conversation, and when Miss
+    Bingley left them together, could attempt little besides expressions of
+    gratitude for the extraordinary kindness she was treated with. Elizabeth
+    silently attended her.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Quand le déjeuner fut fini, les deux sœurs vinrent les
+    joindre, et Élisabeth commença elle-même à les aimer
+    lorsqu’elle vit la tendre sollicitude qu’elles témoignaient
+    à Hélen. Le chirurgien du lieu vint et, ayant examiné la
+    malade, dit, comme on pouvait l’imaginer, qu’elle avait
+    un rhume sérieux&#160;; il lui conseilla de se mettre au lit, en
+    attendant quelques drogues qu’il devait envoyer. Son avis
+    fut suivi sans peine, car le frisson augmentait, et Hélen
+    avait un violent mal de tête. Élisabeth ne la quitta pas un
+    seul instant, et ces dames s’en éloignèrent peu, car, les messieurs 
+    étant sortis, elles n’avaient rien de mieux à faire.</p>
+  </td>
+  <td class="en">
+    <p>When breakfast was over they were joined by the sisters; and Elizabeth began
+    to like them herself, when she saw how much affection and solicitude they
+    shewed for Jane. The apothecary came, and having examined his patient, said, as
+    might be supposed, that she had caught a violent cold, and that they must
+    endeavour to get the better of it; advised her to return to bed, and promised
+    her some draughts. The advice was followed readily, for the feverish symptoms
+    increased, and her head ached acutely. Elizabeth did not quit her room for a
+    moment; nor were the other ladies often absent; the gentlemen being out, they
+    had, in fact, nothing to do elsewhere.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>Vers les trois heures, Élisabeth pensa qu’il fallait
+    se retirer, et le dit à regret&#160;; Mlle Bingley lui offrit
+    la voiture, mais Hélen témoigna tant de chagrin de voir partir
+    sa sœur que miss Bingley se vit obligée d’engager Élisabeth 
+    à demeurer pour le moment à Netherfield. Cette
+    proposition fut acceptée avec reconnaissance, et l’on
+    envoya un domestique à Longbourn faire part de cette
+    décision et chercher ce dont les deux sœurs pouvaient avoir
+    besoin.</p>
+  </td>
+  <td class="en">
+    <p>When the clock struck three, Elizabeth felt that she must go, and very
+    unwillingly said so. Miss Bingley offered her the carriage, and she only wanted
+    a little pressing to accept it, when Jane testified such concern in parting
+    with her, that Miss Bingley was obliged to convert the offer of the chaise to
+    an invitation to remain at Netherfield for the present. Elizabeth most
+    thankfully consented, and a servant was dispatched to Longbourn to acquaint the
+    family with her stay and bring back a supply of clothes.</p>
+  </td>
+</tr>
+
+</table>
+
+</body>
+</html>
