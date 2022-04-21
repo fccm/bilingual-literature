@@ -4,7 +4,8 @@
 <title>Antony and Cleopatra, by William Shakespeare</title>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width"/>
-<style type="text/css">
+
+<style type="text/css" media="screen">
 body {
   color:#BBC;
   background:#EEE;
@@ -16,10 +17,20 @@ td {
   padding:0;
   margin:1px;
 }
+table {
+  width:1080px;
+}
+td {
+  width:50%;
+  vertical-align:top;
+}
 p { padding:0; }
+p { font-size:0.94em; }
 
 h1 { font-size:1.3em; padding-left:0.2em; }
 h2 { font-size:0.9em; padding-left:2.0em; }
+
+em { font-size:0.85em; padding-left:1.0em; }
 
 td.en p, h1.en, h2.en, h3.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
 td.fr p, h1.fr, h2.fr, h3.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
@@ -30,18 +41,31 @@ h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 h6.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
 h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
 
-table {
-  width:82%;
-}
-td {
-  width:50%;
-  vertical-align:top;
-}
 .stage1 {
+  font-size:0.85em;
+  padding-left:1.0em;
   font-style:oblique;
   font-style:italic;
 }
 </style>
+
+<style type="text/css" media="print">
+body { background:#FFF; color:#000; }
+a { text-decoration:none; color:#000; }
+h1, h2, h3, h4 { color:#000; }
+table { width:100%; }
+td { width:50%; }
+td {
+  border:1px solid #000;
+  padding:0;
+  margin:1px;
+  vertical-align:top;
+}
+td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
+td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
+td p { font-size:0.7em; text-indent:0.8em; }
+</style>
+
 </head>
 <body>
 
@@ -221,7 +245,14 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     PHILON.<br/>
-    &nbsp; — En vérité, ce fol amour de notre général passe la mesure. Ses beaux yeux, qu'on voyait, au milieu de ses légions rangées en bataille, étinceler, comme ceux de Mars armé, maintenant tournent leurs regards, fixent leur attention sur un front basané. Son coeur de guerrier, qui, plus d'une fois, dans la mêlée des grandes batailles, brisa sur son sein les boucles de sa cuirasse, dément sa trempe. Il est devenu le soufflet et l'éventail qui apaisent les impudiques désirs d'une Égyptienne<!-- [1] -->. Regarde, les voilà qui viennent.<br/>
+    &nbsp; — En vérité, ce fol amour de notre général passe la mesure.
+    Ses beaux yeux, qu'on voyait, au milieu de ses légions rangées en bataille,
+    étinceler, comme ceux de Mars armé, maintenant tournent leurs regards,
+    fixent leur attention sur un front basané. Son coeur de guerrier, qui,
+    plus d'une fois, dans la mêlée des grandes batailles, brisa sur son sein
+    les boucles de sa cuirasse, dément sa trempe. Il est devenu le soufflet
+    et l'éventail qui apaisent les impudiques désirs d'une Égyptienne<!-- [1] -->.
+    Regarde, les voilà qui viennent.<br/>
     &nbsp;<br/>
     &nbsp;
     <em>(Fanfares. Entrent Antoine et Cléopâtre avec leur suite.
@@ -251,7 +282,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
     &nbsp; And is become the bellows and the fan<br/>
     &nbsp; To cool a gipsy’s lust.<br/>
   &nbsp;<br/>
-  <em>Flourish. Enter Antony and Cleopatra, her Ladies, the Train, with Eunuchs fanning her.</em><br/>
+  <em>Flourish. Enter Antony and Cleopatra, her Ladies, the Train,
+    with Eunuchs fanning her.</em><br/>
   &nbsp;<br/>
     &nbsp; Look where they come:<br/>
     &nbsp; Take but good note, and you shall see in him<br/>
@@ -406,10 +438,14 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Peut-être, et même cela est très-probable, peut-être que vous ne devez pas vous arrêter plus longtemps ici; César vous donne votre congé. Il faut donc l'entendre, Antoine.
+    &nbsp; — Peut-être, et même cela est très-probable, peut-être que
+    vous ne devez pas vous arrêter plus longtemps ici; César vous donne
+    votre congé. Il faut donc l'entendre, Antoine.
     —&nbsp;Où sont les ordres de Fulvie? de César, veux-je dire? ou de tous deux?
     —&nbsp;Faites entrer les messagers.
-    —&nbsp;Aussi vrai que je suis reine d'Égypte, tu rougis, Antoine: ce sang qui te monte au visage rend hommage à César; ou c'est la honte qui colore ton front, quand l'aigre voix de Fulvie te gronde.
+    —&nbsp;Aussi vrai que je suis reine d'Égypte, tu rougis, Antoine:
+    ce sang qui te monte au visage rend hommage à César; ou c'est la honte
+    qui colore ton front, quand l'aigre voix de Fulvie te gronde.
     —&nbsp;Les messagers!
     </p>
   </td>
@@ -432,7 +468,13 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Que Rome se fonde dans le Tibre, que le vaste portique de l'empire s'écroule! C'est ici qu'est mon univers. Les royaumes ne sont qu'argile. Notre globe fangeux nourrit également la brute et l'homme. Le noble emploi de la vie, c'est ceci <em>(il l'embrasse)</em>, quand un tendre couple, quand des amants comme nous peuvent le faire. Et j'invite le monde sous peine de châtiment à reconnaître que nous sommes incomparables!
+    &nbsp; — Que Rome se fonde dans le Tibre, que le vaste portique de
+    l'empire s'écroule! C'est ici qu'est mon univers. Les royaumes ne sont
+    qu'argile. Notre globe fangeux nourrit également la brute et l'homme.
+    Le noble emploi de la vie, c'est ceci <em>(il l'embrasse)</em>,
+    quand un tendre couple, quand des amants comme nous peuvent le faire.
+    Et j'invite le monde sous peine de châtiment à reconnaître que nous
+    sommes incomparables!
     </p>
   </td>
   <td class="en">
@@ -454,7 +496,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — O rare imposture! Pourquoi a-t-il épousé Fulvie s'il ne l'aimait pas? Je semblerai dupe, mais je ne le suis pas. —&nbsp;Antoine sera toujours lui-même.
+    &nbsp; — O rare imposture! Pourquoi a-t-il épousé Fulvie s'il ne l'aimait pas?
+    Je semblerai dupe, mais je ne le suis pas. —&nbsp;Antoine sera toujours lui-même.
     </p>
   </td>
   <td class="en">
@@ -472,7 +515,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; —&nbsp;S'il est inspiré par Cléopâtre. Mais au nom de l'amour et de ses douces heures, ne perdons pas le temps en fâcheux entretiens. Nous ne devrions pas laisser écouler maintenant sans quelque plaisir une seule minute de notre vie... Quel sera l'amusement de ce soir?
+    &nbsp; —&nbsp;S'il est inspiré par Cléopâtre. Mais au nom de l'amour
+    et de ses douces heures, ne perdons pas le temps en fâcheux entretiens.
+    Nous ne devrions pas laisser écouler maintenant sans quelque plaisir
+    une seule minute de notre vie... Quel sera l'amusement de ce soir?
     </p>
   </td>
   <td class="en">
@@ -506,7 +552,12 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Fi donc! reine querelleuse, à qui tout sied: gronder, rire, pleurer: chaque passion brigue à l'envie l'honneur de paraître belle et de se faire admirer sur votre visage. Point de députés! Je suis à toi, et à toi seule, et ce soir, nous nous promènerons dans les rues d'Alexandrie, et nous observerons les m&oelig;urs du peuple... Venez, ma reine: hier au soir vous en aviez envie. <em>(Au messager.)</em> Ne nous parle pas.
+    &nbsp; — Fi donc! reine querelleuse, à qui tout sied: gronder, rire, pleurer:
+    chaque passion brigue à l'envie l'honneur de paraître belle et de se faire
+    admirer sur votre visage. Point de députés! Je suis à toi, et à toi seule,
+    et ce soir, nous nous promènerons dans les rues d'Alexandrie, et nous
+    observerons les m&oelig;urs du peuple... Venez, ma reine: hier au soir
+    vous en aviez envie. <em>(Au messager.)</em> Ne nous parle pas.
     </p>
   </td>
   <td class="en">
@@ -558,7 +609,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     PHILON.<br/>
-    &nbsp; — Oui, quelquefois, quand il n'est plus Antoine, il s'écarte trop de ce caractère qui devrait toujours accompagner Antoine.
+    &nbsp; — Oui, quelquefois, quand il n'est plus Antoine,
+    il s'écarte trop de ce caractère qui devrait toujours accompagner Antoine.
     </p>
   </td>
   <td class="en">
@@ -575,7 +627,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     DÉMÉTRIUS.<br/>
-    &nbsp; — Je suis vraiment affligé de voir confirmer tout ce que répète de lui à Rome la renommée, si souvent menteuse: mais j'espère de plus nobles actions pour demain... Reposez doucement!
+    &nbsp; — Je suis vraiment affligé de voir confirmer tout ce que répète
+    de lui à Rome la renommée, si souvent menteuse: mais j'espère de plus
+    nobles actions pour demain... Reposez doucement!
     </p>
   </td>
   <td class="en">
@@ -636,11 +690,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Seigneur Alexas, cher Alexas, incomparable, presque tout-puissant Alexas, où est le devin que vous avez tant vanté à la reine? Oh! que je voudrais connaître cet époux, qui, dites-vous, doit couronner ses cornes de guirlandes<!--[3]-->!
+    &nbsp; — Seigneur Alexas, cher Alexas, incomparable, presque tout-puissant
+    Alexas, où est le devin que vous avez tant vanté à la reine? Oh! que je
+    voudrais connaître cet époux, qui, dites-vous, doit couronner ses cornes
+    de guirlandes<!--[3]-->!
     </p>
     <!--
     <p>
-    <em>[3]: (retour) Être déshonoré en se faisant gloire de l'être, charge his horns with garlands;
+    <em>[3]: (retour) Être déshonoré en se faisant gloire de l'être,
+      charge his horns with garlands;
       il y a des commentateurs qui lisent change au lieu de charge.</em>
     </p>
     -->
@@ -648,7 +706,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Lord Alexas, sweet Alexas, most anything Alexas, almost most absolute Alexas, where’s the soothsayer that you praised so to th’ queen? O, that I knew this husband which you say must charge his horns with garlands!
+    &nbsp; Lord Alexas, sweet Alexas, most anything Alexas, almost most absolute
+    Alexas, where’s the soothsayer that you praised so to th’ queen?
+    O, that I knew this husband which you say must charge his horns with garlands!
     </p>
   </td>
 </tr>
@@ -733,7 +793,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Qu'on serve promptement le repas: et du vin en abondance, pour boire à la santé de Cléopâtre.
+    &nbsp; — Qu'on serve promptement le repas: et du vin en abondance,
+    pour boire à la santé de Cléopâtre.
     </p>
   </td>
   <td class="en">
@@ -929,23 +990,37 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Voyons, maintenant, quelque bonne aventure; que j'épouse trois rois dans une matinée, que je devienne veuve de tous trois, que j'aie à cinquante ans un fils auquel Hérode<!--[4]--> de Judée rende hommage. Trouve-moi un moyen de me marier avec Octave César, et de marcher l'égale de ma maîtresse.
+    &nbsp; — Voyons, maintenant, quelque bonne aventure; que j'épouse trois rois
+    dans une matinée, que je devienne veuve de tous trois, que j'aie à cinquante ans
+    un fils auquel Hérode<!--[4]--> de Judée rende hommage. Trouve-moi un moyen
+    de me marier avec Octave César, et de marcher l'égale de ma maîtresse.
     </p>
     <!--
     <p>
     [4]:<br/>
-    Hérode rendit hommage aux Romains pour conserver le royaume de Judée. Steevens pense qu'il y a ici une allusion au personnage de ce monarque dans les Mystères de l'origine du théâtre. Hérode y était toujours représenté comme un tyran sombre et cruel, et son nom devint une expression proverbiale pour peindre la fureur dans ses excès.<br/>
+    Hérode rendit hommage aux Romains pour conserver le royaume de Judée.
+    Steevens pense qu'il y a ici une allusion au personnage de ce monarque dans
+    les Mystères de l'origine du théâtre. Hérode y était toujours représenté
+    comme un tyran sombre et cruel, et son nom devint une expression proverbiale
+    pour peindre la fureur dans ses excès.<br/>
     &nbsp; <br/>
-    C'est ainsi qu'Hamlet dit d'un comédien qu'il outre le caractère d'Hérode, out-Herods Herod.<br/>
+    C'est ainsi qu'Hamlet dit d'un comédien qu'il outre le caractère d'Hérode,
+    out-Herods Herod.<br/>
     &nbsp; <br/>
-    Dans cette tragédie (Antoine et Cléopâtre), Alexas dit à la reine qu'Hérode de Judée lui-même n'ose pas la regarder quand elle est de mauvaise humeur. Charmiane désire donc un fils qui soit respecté d'Hérode, c'est-à-dire des monarques les plus fiers et les plus cruels.<br/>
+    Dans cette tragédie (Antoine et Cléopâtre), Alexas dit à la reine qu'Hérode
+    de Judée lui-même n'ose pas la regarder quand elle est de mauvaise humeur.
+    Charmiane désire donc un fils qui soit respecté d'Hérode, c'est-à-dire
+    des monarques les plus fiers et les plus cruels.<br/>
     </p>
     -->
   </td>
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Good now, some excellent fortune! Let me be married to three kings in a forenoon and widow them all. Let me have a child at fifty, to whom Herod of Jewry may do homage. Find me to marry me with Octavius Caesar, and companion me with my mistress.
+    &nbsp; Good now, some excellent fortune! Let me be married to three kings
+    in a forenoon and widow them all. Let me have a child at fifty, to whom
+    Herod of Jewry may do homage. Find me to marry me with Octavius Caesar,
+    and companion me with my mistress.
     </p>
   </td>
 </tr>
@@ -969,10 +1044,14 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Oh! merveilleux! J'aime bien mieux une longue vie que des figues<!--[5]-->.
+    &nbsp; — Oh! merveilleux! J'aime bien mieux une longue vie que
+    des figues<!--[5]-->.
     </p>
     <!--
-    [5]: Expression proverbiale. Warburton croit qu'il y a ici un rapport mystérieux entre ce mot de figues prononcé sans intention, et la corbeille de figues, qui, au cinquième acte, renferme l'aspic dont la morsure abrège les jours de Cléopâtre.
+    [5]: Expression proverbiale. Warburton croit qu'il y a ici un rapport
+    mystérieux entre ce mot de figues prononcé sans intention, et la
+    corbeille de figues, qui, au cinquième acte, renferme l'aspic dont
+    la morsure abrège les jours de Cléopâtre.
     -->
   </td>
   <td class="en">
@@ -987,7 +1066,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     LE DEVIN.<br/>
-    &nbsp; — Vous avez éprouvé dans le passé une meilleure fortune que celle qui vous attend.
+    &nbsp; — Vous avez éprouvé dans le passé une meilleure fortune que
+    celle qui vous attend.
     </p>
   </td>
   <td class="en">
@@ -1003,7 +1083,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — A ce compte, il y a toute apparence que mes enfants n'auront pas de nom<!--[6]-->. Je vous prie, combien dois-je avoir de garçons et de filles?
+    &nbsp; — A ce compte, il y a toute apparence que mes enfants n'auront
+    pas de nom<!--[6]-->.
+    Je vous prie, combien dois-je avoir de garçons et de filles?
     </p>
     <!--
     <p>
@@ -1014,7 +1096,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Then belike my children shall have no names. Prithee, how many boys and wenches must I have?
+    &nbsp; Then belike my children shall have no names.
+    Prithee, how many boys and wenches must I have?
     </p>
   </td>
 </tr>
@@ -1023,7 +1106,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     LE DEVIN.<br/>
-    &nbsp; — Si chacun de vos désirs avait un sein fécond, vous auriez un million d'enfants.
+    &nbsp; — Si chacun de vos désirs avait un sein fécond,
+    vous auriez un million d'enfants.
     </p>
   </td>
   <td class="en">
@@ -1099,7 +1183,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Ma destinée, comme celle de la plupart de vous, sera d'aller nous coucher ivres ce soir.
+    &nbsp; — Ma destinée, comme celle de la plupart de vous, sera d'aller
+    nous coucher ivres ce soir.
     </p>
   </td>
   <td class="en">
@@ -1159,13 +1244,16 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Oui, si une main humide n'est pas un pronostic de fécondité, il n'est pas vrai que je puisse me gratter l'oreille.—Je t'en prie, dis-lui seulement une destinée tout ordinaire.
+    &nbsp; — Oui, si une main humide n'est pas un pronostic de fécondité,
+    il n'est pas vrai que je puisse me gratter l'oreille.—Je t'en prie,
+    dis-lui seulement une destinée tout ordinaire.
     </p>
   </td>
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Nay, if an oily palm be not a fruitful prognostication, I cannot scratch mine ear. Prithee, tell her but workaday fortune.
+    &nbsp; Nay, if an oily palm be not a fruitful prognostication,
+    I cannot scratch mine ear. Prithee, tell her but workaday fortune.
     </p>
   </td>
 </tr>
@@ -1219,7 +1307,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     IRAS.<br/>
-    &nbsp; — Quoi! n'aurai-je pas seulement un pouce de bonne fortune de plus qu'elle?
+    &nbsp; — Quoi! n'aurai-je pas seulement un pouce de bonne fortune
+    de plus qu'elle?
     </p>
   </td>
   <td class="en">
@@ -1234,13 +1323,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Et si vous aviez un pouce de bonne fortune de plus que moi, où le choisiriez-vous?
+    &nbsp; — Et si vous aviez un pouce de bonne fortune de plus que moi,
+    où le choisiriez-vous?
     </p>
   </td>
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Well, if you were but an inch of fortune better than I, where would you choose it?
+    &nbsp; Well, if you were but an inch of fortune better than I,
+    where would you choose it?
     </p>
   </td>
 </tr>
@@ -1264,18 +1355,31 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Que le ciel corrige nos mauvaises pensées! —&nbsp;Alexas! allons, sa bonne aventure, à lui, sa bonne aventure. Oh! qu'il épouse une femme qui ne puisse pas marcher. Douce Isis<!-- [7] -->, je t'en supplie, que cette femme meure! et alors donne-lui-en une pire encore, et après celle-là d'autres toujours plus méchantes, jusqu'à ce que la pire de toutes le conduise en riant à sa tombe, cinquante fois déshonoré. Bonne Isis, exauce ma prière, et, quand tu devrais me refuser dans des occasions plus importantes, accorde-moi cette grâce; bonne Isis, je t'en conjure!
+    &nbsp; — Que le ciel corrige nos mauvaises pensées! —&nbsp;Alexas! allons,
+    sa bonne aventure, à lui, sa bonne aventure. Oh! qu'il épouse une femme
+    qui ne puisse pas marcher. Douce Isis<!-- [7] -->, je t'en supplie, que
+    cette femme meure! et alors donne-lui-en une pire encore, et après celle-là
+    d'autres toujours plus méchantes, jusqu'à ce que la pire de toutes le conduise
+    en riant à sa tombe, cinquante fois déshonoré. Bonne Isis, exauce ma prière,
+    et, quand tu devrais me refuser dans des occasions plus importantes,
+    accorde-moi cette grâce; bonne Isis, je t'en conjure!
     </p>
     <!--
     <p>
-      [7]: Les Égyptiens adoraient la lune sous le nom d'Isis, qu'ils représentaient tenant dans sa main une sphère et une amphore pleine de blé.
+      [7]: Les Égyptiens adoraient la lune sous le nom d'Isis, qu'ils représentaient
+      tenant dans sa main une sphère et une amphore pleine de blé.
     </p>
     -->
   </td>
   <td class="en">
     <p>
     CHARMIAN.<br/>
-    &nbsp; Our worser thoughts heavens mend! Alexas—come, his fortune! his fortune! O, let him marry a woman that cannot go, sweet Isis, I beseech thee, and let her die too, and give him a worse, and let worse follow worse, till the worst of all follow him laughing to his grave, fiftyfold a cuckold! Good Isis, hear me this prayer, though thou deny me a matter of more weight; good Isis, I beseech thee!
+    &nbsp; Our worser thoughts heavens mend! Alexas—come, his fortune! his fortune!
+    O, let him marry a woman that cannot go, sweet Isis, I beseech thee,
+    and let her die too, and give him a worse, and let worse follow worse,
+    till the worst of all follow him laughing to his grave, fiftyfold a cuckold!
+    Good Isis, hear me this prayer, though thou deny me a matter of more weight;
+    good Isis, I beseech thee!
     </p>
   </td>
 </tr>
@@ -1284,13 +1388,20 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     IRAS.<br/>
-    &nbsp; — Ainsi soit-il; chère déesse, entends la prière que nous t'adressons toutes! car si c'est un crève-coeur de voir un bel homme avec une mauvaise femme, c'est un chagrin mortel de voir un laid malotru sans cornes: ainsi donc, chère Isis, par bienséance, donne-lui la destinée qui lui convient.
+    &nbsp; — Ainsi soit-il; chère déesse, entends la prière que nous
+    t'adressons toutes! car si c'est un crève-coeur de voir un bel homme
+    avec une mauvaise femme, c'est un chagrin mortel de voir un laid malotru
+    sans cornes: ainsi donc, chère Isis, par bienséance, donne-lui la destinée
+    qui lui convient.
     </p>
   </td>
   <td class="en">
     <p>
     IRAS.<br/>
-    &nbsp; Amen. Dear goddess, hear that prayer of the people! For, as it is a heartbreaking to see a handsome man loose-wived, so it is a deadly sorrow to behold a foul knave uncuckolded. Therefore, dear Isis, keep decorum and fortune him accordingly!
+    &nbsp; Amen. Dear goddess, hear that prayer of the people! For, as it is
+    a heartbreaking to see a handsome man loose-wived, so it is a deadly sorrow
+    to behold a foul knave uncuckolded. Therefore, dear Isis, keep decorum and
+    fortune him accordingly!
     </p>
   </td>
 </tr>
@@ -1314,13 +1425,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ALEXAS.<br/>
-    &nbsp; — Voyez-vous; s'il dépendait d'elles de me déshonorer, elles se prostitueraient pour en venir à bout.
+    &nbsp; — Voyez-vous; s'il dépendait d'elles de me déshonorer,
+    elles se prostitueraient pour en venir à bout.
     </p>
   </td>
   <td class="en">
     <p>
     ALEXAS.<br/>
-    &nbsp; Lo now, if it lay in their hands to make me a cuckold, they would make themselves whores but they’d do’t!
+    &nbsp; Lo now, if it lay in their hands to make me a cuckold,
+    they would make themselves whores but they’d do’t!
     </p>
   </td>
 </tr>
@@ -1443,7 +1556,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Il était d'une humeur gaie... Mais tout à coup un souvenir de Rome a saisi son âme. —&nbsp;Énobarbus!
+    &nbsp; — Il était d'une humeur gaie... Mais tout à coup un souvenir de Rome
+    a saisi son âme. —&nbsp;Énobarbus!
     </p>
   </td>
   <td class="en">
@@ -1579,7 +1693,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     LE MESSAGER.<br/>
-    &nbsp; — Oui: mais cette guerre a bientôt été terminée. Les circonstances les ont aussitôt réconciliés, et ils ont réuni leurs forces contre César. Mais, dès le premier choc, la fortune de César dans la guerre les a chassés tous deux de l'Italie.
+    &nbsp; — Oui: mais cette guerre a bientôt été terminée.
+    Les circonstances les ont aussitôt réconciliés, et ils ont réuni leurs
+    forces contre César. Mais, dès le premier choc, la fortune de César
+    dans la guerre les a chassés tous deux de l'Italie.
     </p>
   </td>
   <td class="en">
@@ -1628,7 +1745,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Oui, quand elles s'adressent à un insensé, ou à un lâche; poursuis.—Avec moi, ce qui est passé est passé, voilà mon principe. Quiconque m'apprend une vérité, dût la mort être au bout de son récit, je l'écoute comme s'il me flattait.
+    &nbsp; — Oui, quand elles s'adressent à un insensé, ou à un lâche; poursuis.
+    —&nbsp;Avec moi, ce qui est passé est passé, voilà mon principe.
+    Quiconque m'apprend une vérité, dût la mort être au bout de son récit,
+    je l'écoute comme s'il me flattait.
     </p>
   </td>
   <td class="en">
@@ -1646,7 +1766,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     LE MESSAGER.<br/>
-    &nbsp; — Labiénus, et c'est une sinistre nouvelle, a envahi l'Asie Mineure depuis l'Euphrate avec son armée de Parthes; sa bannière triomphante a flotté depuis la Syrie, jusqu'à la Lydie et l'Ionie; tandis que...
+    &nbsp; — Labiénus, et c'est une sinistre nouvelle, a envahi l'Asie Mineure
+    depuis l'Euphrate avec son armée de Parthes; sa bannière triomphante a flotté
+    depuis la Syrie, jusqu'à la Lydie et l'Ionie; tandis que...
     </p>
   </td>
   <td class="en">
@@ -1696,7 +1818,12 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Parle-moi sans détour: ne déguise point les bruits populaires: appelle Cléopâtre comme on l'appelle à Rome; prends le ton d'ironie avec lequel Fulvie parle de moi; reproche-moi mes fautes avec toute la licence de la malignité et de la vérité réunies. —&nbsp;Oh! nous ne portons que des ronces quand les vents violents demeurent immobiles; et le récit de nos torts est pour nous une culture. —&nbsp;Laisse-moi un moment.
+    &nbsp; — Parle-moi sans détour: ne déguise point les bruits populaires:
+    appelle Cléopâtre comme on l'appelle à Rome; prends le ton d'ironie avec
+    lequel Fulvie parle de moi; reproche-moi mes fautes avec toute la licence
+    de la malignité et de la vérité réunies. —&nbsp;Oh! nous ne portons que
+    des ronces quand les vents violents demeurent immobiles; et le récit de
+    nos torts est pour nous une culture. —&nbsp;Laisse-moi un moment.
     </p>
   </td>
   <td class="en">
@@ -1866,7 +1993,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     LE MESSAGER.<br/>
-    &nbsp; — A Sicyone: la longueur de sa maladie, et d'autres circonstances plus graves encore, qu'il vous importe de connaître, sont détaillées dans cette lettre.
+    &nbsp; — A Sicyone: la longueur de sa maladie, et d'autres circonstances
+    plus graves encore, qu'il vous importe de connaître, sont détaillées dans cette lettre.
     </p>
   </td>
   <td class="en">
@@ -1898,7 +2026,14 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Laissez-moi seul. <em>(Le messager sort.)</em> Voilà une grande âme partie! Je l'ai pourtant désiré. —&nbsp;L'objet que nous avons repoussé avec dédain, nous voudrions le posséder encore! Le plaisir du jour diminue par la révolution des temps et devient une peine. —&nbsp;Elle est bonne parce qu'elle n'est plus. La main qui la repoussait voudrait la ramener! —&nbsp;Il faut absolument que je m'affranchisse du joug de cette reine enchanteresse. Mille maux plus grands que ceux que je connais déjà sont près d'éclore de mon indolence. —&nbsp;Où es-tu, Énobarbus?
+    &nbsp; — Laissez-moi seul. <em>(Le messager sort.)</em> Voilà une grande
+    âme partie! Je l'ai pourtant désiré. —&nbsp;L'objet que nous avons repoussé
+    avec dédain, nous voudrions le posséder encore! Le plaisir du jour diminue
+    par la révolution des temps et devient une peine. —&nbsp;Elle est bonne
+    parce qu'elle n'est plus. La main qui la repoussait voudrait la ramener!
+    —&nbsp;Il faut absolument que je m'affranchisse du joug de cette reine
+    enchanteresse. Mille maux plus grands que ceux que je connais déjà sont
+    près d'éclore de mon indolence. —&nbsp;Où es-tu, Énobarbus?
     </p>
   </td>
   <td class="en">
@@ -1973,13 +2108,16 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — En ce cas, nous tuons toutes nos femmes. Nous voyons combien une dureté leur est mortelle: s'il leur faut subir notre départ, la mort est là pour elles.
+    &nbsp; — En ce cas, nous tuons toutes nos femmes. Nous voyons combien une
+    dureté leur est mortelle: s'il leur faut subir notre départ, la mort est
+    là pour elles.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; Why then we kill all our women. We see how mortal an unkindness is to them. If they suffer our departure, death’s the word.
+    &nbsp; Why then we kill all our women. We see how mortal an unkindness is
+    to them. If they suffer our departure, death’s the word.
     </p>
   </td>
 </tr>
@@ -2003,13 +2141,24 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Dans une occasion pressante, que les femmes meurent! —&nbsp;Mais ce serait pitié de les rejeter pour un rien, quoique comparées à un grand intérêt elles doivent être comptées pour rien. Au moindre bruit de ce dessein, Cléopâtre meurt, elle meurt aussitôt; je l'ai vue mourir vingt fois pour des motifs bien plus légers. Je crois qu'il y a de l'amour pour elle dans la mort, qui lui procure quelque jouissance amoureuse, tant elle est prompte à mourir.
+    &nbsp; — Dans une occasion pressante, que les femmes meurent!
+    —&nbsp;Mais ce serait pitié de les rejeter pour un rien, quoique
+    comparées à un grand intérêt elles doivent être comptées pour rien.
+    Au moindre bruit de ce dessein, Cléopâtre meurt, elle meurt aussitôt;
+    je l'ai vue mourir vingt fois pour des motifs bien plus légers.
+    Je crois qu'il y a de l'amour pour elle dans la mort, qui lui procure
+    quelque jouissance amoureuse, tant elle est prompte à mourir.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; Under a compelling occasion, let women die. It were pity to cast them away for nothing, though, between them and a great cause they should be esteemed nothing. Cleopatra, catching but the least noise of this, dies instantly. I have seen her die twenty times upon far poorer moment. I do think there is mettle in death which commits some loving act upon her, she hath such a celerity in dying.
+    &nbsp; Under a compelling occasion, let women die. It were pity to cast
+    them away for nothing, though, between them and a great cause they should
+    be esteemed nothing. Cleopatra, catching but the least noise of this,
+    dies instantly. I have seen her die twenty times upon far poorer moment.
+    I do think there is mettle in death which commits some loving act upon her,
+    she hath such a celerity in dying.
     </p>
   </td>
 </tr>
@@ -2033,13 +2182,20 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Hélas, non, seigneur! Ses passions ne sont formées que des plus purs éléments de l'amour. Nous ne pouvons comparer ses soupirs et ses larmes aux vents et aux flots. Ce sont de plus grandes tempêtes que celles qu'annoncent les almanachs, ce ne peut être une ruse chez elle. Si c'en est une, elle fait tomber la pluie aussi bien que Jupiter.
+    &nbsp; — Hélas, non, seigneur! Ses passions ne sont formées que des
+    plus purs éléments de l'amour. Nous ne pouvons comparer ses soupirs
+    et ses larmes aux vents et aux flots. Ce sont de plus grandes tempêtes
+    que celles qu'annoncent les almanachs, ce ne peut être une ruse chez elle.
+    Si c'en est une, elle fait tomber la pluie aussi bien que Jupiter.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; Alack, sir, no; her passions are made of nothing but the finest part of pure love. We cannot call her winds and waters sighs and tears; they are greater storms and tempests than almanacs can report. This cannot be cunning in her; if it be, she makes a shower of rain as well as Jove.
+    &nbsp; Alack, sir, no; her passions are made of nothing but the finest part
+    of pure love. We cannot call her winds and waters sighs and tears; they are
+    greater storms and tempests than almanacs can report. This cannot be cunning
+    in her; if it be, she makes a shower of rain as well as Jove.
     </p>
   </td>
 </tr>
@@ -2063,13 +2219,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Ah! seigneur, vous auriez manqué de voir une merveille; et n'avoir pas été heureux par elle, c'eût été décréditer votre voyage.
+    &nbsp; — Ah! seigneur, vous auriez manqué de voir une merveille;
+    et n'avoir pas été heureux par elle, c'eût été décréditer votre voyage.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; O, sir, you had then left unseen a wonderful piece of work, which not to have been blest withal would have discredited your travel.
+    &nbsp; O, sir, you had then left unseen a wonderful piece of work,
+    which not to have been blest withal would have discredited your travel.
     </p>
   </td>
 </tr>
@@ -2153,13 +2311,26 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Eh bien! seigneur, offrez aux dieux un sacrifice d'actions de grâces! Quand il plaît à leur divinité d'enlever à un homme sa femme, ils lui montrent les tailleurs de la terre, pour le consoler en lui faisant voir que lorsque les vieilles robes sont usées, il reste des gens pour en faire de neuves. S'il n'y avait pas d'autre femme que Fulvie, alors vous auriez une véritable blessure et des motifs pour vous lamenter; mais votre chagrin porte avec lui sa consolation; votre vieille chemise vous donne un jupon neuf. En vérité, pour verser des larmes sur un tel chagrin, il faudrait les faire couler avec un oignon.
+    &nbsp; — Eh bien! seigneur, offrez aux dieux un sacrifice d'actions de grâces!
+    Quand il plaît à leur divinité d'enlever à un homme sa femme, ils lui montrent
+    les tailleurs de la terre, pour le consoler en lui faisant voir que lorsque les
+    vieilles robes sont usées, il reste des gens pour en faire de neuves. S'il n'y
+    avait pas d'autre femme que Fulvie, alors vous auriez une véritable blessure et
+    des motifs pour vous lamenter; mais votre chagrin porte avec lui sa consolation;
+    votre vieille chemise vous donne un jupon neuf. En vérité, pour verser des larmes
+    sur un tel chagrin, il faudrait les faire couler avec un oignon.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; Why, sir, give the gods a thankful sacrifice. When it pleaseth their deities to take the wife of a man from him, it shows to man the tailors of the earth; comforting therein that when old robes are worn out, there are members to make new. If there were no more women but Fulvia, then had you indeed a cut, and the case to be lamented. This grief is crowned with consolation; your old smock brings forth a new petticoat: and indeed the tears live in an onion that should water this sorrow.
+    &nbsp; Why, sir, give the gods a thankful sacrifice. When it pleaseth their
+    deities to take the wife of a man from him, it shows to man the tailors of
+    the earth; comforting therein that when old robes are worn out, there are
+    members to make new. If there were no more women but Fulvia, then had you
+    indeed a cut, and the case to be lamented. This grief is crowned with consolation;
+    your old smock brings forth a new petticoat: and indeed the tears live in
+    an onion that should water this sorrow.
     </p>
   </td>
 </tr>
@@ -2168,7 +2339,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Les affaires qu'elle a entamées dans l'État ne peuvent supporter mon absence.
+    &nbsp; — Les affaires qu'elle a entamées dans l'État ne peuvent
+    supporter mon absence.
     </p>
   </td>
   <td class="en">
@@ -2184,13 +2356,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ÉNOBARBUS.<br/>
-    &nbsp; — Et les affaires que vous avez entamées ici ne peuvent se passer de vous, surtout celle de Cléopâtre, qui dépend absolument de votre présence.
+    &nbsp; — Et les affaires que vous avez entamées ici ne peuvent se passer
+    de vous, surtout celle de Cléopâtre, qui dépend absolument de votre présence.
     </p>
   </td>
   <td class="en">
     <p>
     ENOBARBUS.<br/>
-    &nbsp; And the business you have broached here cannot be without you, especially that of Cleopatra’s, which wholly depends on your abode.
+    &nbsp; And the business you have broached here cannot be without you,
+    especially that of Cleopatra’s, which wholly depends on your abode.
     </p>
   </td>
 </tr>
@@ -2199,11 +2373,28 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Plus de frivoles réponses. —&nbsp;Que nos officiers soient instruits de ma résolution. Je déclarerai à la reine la cause de notre expédition, et j'obtiendrai de son amour la liberté de partir. Car ce n'est pas seulement la mort de Fulvie, et d'autres motifs plus pressants encore, qui parlent fortement à mon coeur: des lettres aussi de plusieurs de nos amis qui travaillent pour nous dans Rome, pressent mon retour dans ma patrie. Sextus Pompée a défié César, et il tient l'empire de la mer. Notre peuple inconstant, dont l'amour ne s'attache jamais à l'homme de mérite, que lorsque son mérite a disparu, commence à faire passer toutes les dignités et la gloire du grand Pompée sur son fils, qui, grand déjà en renommée et en puissance, plus grand encore par sa naissance et son courage, passe pour un grand guerrier; si ses avantages vont en croissant, l'univers pourrait être en danger. Plus d'un germe se développe, qui, semblable au poil d'un coursier<!-- [8] -->, n'a pas encore le venin du serpent, mais est déjà doué de la vie. Apprends à ceux dont l'emploi dépend de nous, que notre bon plaisir est de nous éloigner promptement de ces lieux.
+    &nbsp; — Plus de frivoles réponses. —&nbsp;Que nos officiers soient
+    instruits de ma résolution. Je déclarerai à la reine la cause de notre
+    expédition, et j'obtiendrai de son amour la liberté de partir.
+    Car ce n'est pas seulement la mort de Fulvie, et d'autres motifs plus
+    pressants encore, qui parlent fortement à mon coeur: des lettres aussi
+    de plusieurs de nos amis qui travaillent pour nous dans Rome, pressent
+    mon retour dans ma patrie. Sextus Pompée a défié César, et il tient
+    l'empire de la mer. Notre peuple inconstant, dont l'amour ne s'attache
+    jamais à l'homme de mérite, que lorsque son mérite a disparu, commence
+    à faire passer toutes les dignités et la gloire du grand Pompée sur
+    son fils, qui, grand déjà en renommée et en puissance, plus grand encore
+    par sa naissance et son courage, passe pour un grand guerrier; si ses
+    avantages vont en croissant, l'univers pourrait être en danger.
+    Plus d'un germe se développe, qui, semblable au poil d'un coursier<!-- [8] -->,
+    n'a pas encore le venin du serpent, mais est déjà doué de la vie.
+    Apprends à ceux dont l'emploi dépend de nous, que notre bon plaisir
+    est de nous éloigner promptement de ces lieux.
     </p>
     <!--
     <p>
-    [8]: Une vieille superstition populaire disait que la crinière d'un cheval tombant dans de l'eau corrompue se changeait en animaux vivants.
+    [8]: Une vieille superstition populaire disait que la crinière d'un cheval
+    tombant dans de l'eau corrompue se changeait en animaux vivants.
     </p>
     -->
   </td>
@@ -2340,7 +2531,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Voyez où il est, qui est avec lui, et ce qu'il fait. Je ne vous ai pas envoyée. —&nbsp;Si vous le trouvez triste, dites que je suis à danser; s'il est gai, annoncez que je viens de me trouver mal. Volez, et revenez.
+    &nbsp; — Voyez où il est, qui est avec lui, et ce qu'il fait.
+    Je ne vous ai pas envoyée. —&nbsp;Si vous le trouvez triste,
+    dites que je suis à danser; s'il est gai, annoncez que
+    je viens de me trouver mal. Volez, et revenez.
     </p>
   </td>
   <td class="en">
@@ -2369,7 +2563,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Madame, il me semble que si vous l'aimez tendrement, vous ne prenez pas les moyens d'obtenir de lui le même amour.
+    &nbsp; — Madame, il me semble que si vous l'aimez tendrement,
+    vous ne prenez pas les moyens d'obtenir de lui le même amour.
     </p>
   </td>
   <td class="en">
@@ -2431,7 +2626,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CHARMIANE.<br/>
-    &nbsp; — Ne le poussez pas ainsi à bout, je vous en prie, prenez garde: nous finissons par haïr ce que nous craignons trop souvent. <em>(Antoine entre.)</em> Mais voici Antoine.
+    &nbsp; — Ne le poussez pas ainsi à bout, je vous en prie, prenez garde:
+    nous finissons par haïr ce que nous craignons trop souvent.
+    <em>(Antoine entre.)</em> Mais voici Antoine.
     </p>
   </td>
   <td class="en">
@@ -2481,7 +2678,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Aide-moi, chère Charmiane, à sortir de ce lieu. Je vais tomber. Cela ne peut durer longtemps: la nature ne peut le supporter.
+    &nbsp; — Aide-moi, chère Charmiane, à sortir de ce lieu. Je vais tomber.
+    Cela ne peut durer longtemps: la nature ne peut le supporter.
     </p>
   </td>
   <td class="en">
@@ -2543,7 +2741,11 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Je lis dans vos yeux que vous avez reçu de bonnes nouvelles. Que vous dit votre épouse? —&nbsp;Vous pouvez partir. Plût aux dieux qu'elle ne vous eût jamais permis de venir! —&nbsp;Qu'elle ne dise pas surtout que c'est moi qui vous retiens: je n'ai aucun pouvoir sur vous. Vous êtes tout à elle.
+    &nbsp; — Je lis dans vos yeux que vous avez reçu de bonnes nouvelles.
+    Que vous dit votre épouse? —&nbsp;Vous pouvez partir. Plût aux dieux
+    qu'elle ne vous eût jamais permis de venir! —&nbsp;Qu'elle ne dise pas
+    surtout que c'est moi qui vous retiens: je n'ai aucun pouvoir sur vous.
+    Vous êtes tout à elle.
     </p>
   </td>
   <td class="en">
@@ -2577,7 +2779,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Non, jamais reine ne fut si indignement trahie... Cependant, dès l'abord, j'avais vu poindre ses trahisons.
+    &nbsp; — Non, jamais reine ne fut si indignement trahie...
+    Cependant, dès l'abord, j'avais vu poindre ses trahisons.
     </p>
   </td>
   <td class="en">
@@ -2609,7 +2812,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Quand tu ébranlerais de tes serments le trône même des dieux, comment pourrais-je croire que tu es à moi, que tu es sincère, toi, qui as trahi Fulvie? Quelle passion extravagante a pu me laisser séduire par ces serments des lèvres aussitôt violés que prononcés?
+    &nbsp; — Quand tu ébranlerais de tes serments le trône même des dieux,
+    comment pourrais-je croire que tu es à moi, que tu es sincère, toi, qui
+    as trahi Fulvie? Quelle passion extravagante a pu me laisser séduire par
+    ces serments des lèvres aussitôt violés que prononcés?
     </p>
   </td>
   <td class="en">
@@ -2643,7 +2849,13 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Ah! de grâce, ne cherche point de prétexte pour me quitter: dis-moi adieu, et pars. Lorsque tu me conjurais pour rester, c'était alors le temps des paroles: tu ne parlais pas alors de départ. —&nbsp;L'éternité était dans nos yeux et sur nos lèvres. Le bonheur était peint sur notre front; aucune partie de nous-mêmes qui ne nous fît goûter la félicité du ciel. Il en est encore ainsi, ou bien toi, le plus grand guerrier de l'univers, tu en es devenu le plus grand imposteur!
+    &nbsp; — Ah! de grâce, ne cherche point de prétexte pour me quitter:
+    dis-moi adieu, et pars. Lorsque tu me conjurais pour rester, c'était
+    alors le temps des paroles: tu ne parlais pas alors de départ.
+    —&nbsp;L'éternité était dans nos yeux et sur nos lèvres. Le bonheur
+    était peint sur notre front; aucune partie de nous-mêmes qui ne nous fît
+    goûter la félicité du ciel. Il en est encore ainsi, ou bien toi, le plus
+    grand guerrier de l'univers, tu en es devenu le plus grand imposteur!
     </p>
   </td>
   <td class="en">
@@ -2680,7 +2892,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Que je voudrais avoir ta taille. —&nbsp;Tu apprendrais qu'il y avait un coeur en Égypte.
+    &nbsp; — Que je voudrais avoir ta taille. —&nbsp;Tu apprendrais
+    qu'il y avait un coeur en Égypte.
     </p>
   </td>
   <td class="en">
@@ -2696,7 +2909,17 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Reine, écoutez-moi. L'impérieuse nécessité des circonstances exige pour un temps notre service; mais mon coeur tout entier reste avec vous. Partout, notre Italie étincelle des épées de la guerre civile. Sextus Pompée s'avance jusqu'au port de Rome. L'égalité de deux pouvoirs domestiques engendre les factions. Le parti odieux, devenu puissant, redevient le parti chéri. Pompée proscrit, mais riche de la gloire de son père, s'insinue insensiblement dans les coeurs de ceux qui n'ont point gagné au gouvernement actuel: leur nombre s'accroît et devient redoutable, et les esprits fatigués du repos aspirent à en sortir par quelque résolution désespérée. —&nbsp;Un motif plus personnel pour moi, et qui doit surtout vous rassurer sur mon départ, c'est la mort de Fulvie.
+    &nbsp; — Reine, écoutez-moi. L'impérieuse nécessité des circonstances
+    exige pour un temps notre service; mais mon coeur tout entier reste avec
+    vous. Partout, notre Italie étincelle des épées de la guerre civile.
+    Sextus Pompée s'avance jusqu'au port de Rome. L'égalité de deux pouvoirs
+    domestiques engendre les factions. Le parti odieux, devenu puissant,
+    redevient le parti chéri. Pompée proscrit, mais riche de la gloire de son
+    père, s'insinue insensiblement dans les coeurs de ceux qui n'ont point
+    gagné au gouvernement actuel: leur nombre s'accroît et devient redoutable,
+    et les esprits fatigués du repos aspirent à en sortir par quelque
+    résolution désespérée. —&nbsp;Un motif plus personnel pour moi, et qui
+    doit surtout vous rassurer sur mon départ, c'est la mort de Fulvie.
     </p>
   </td>
   <td class="en">
@@ -2726,7 +2949,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Si l'âge n'a pu affranchir mon coeur de la folie de l'amour, il l'a guéri du moins de la crédulité de l'enfance! —&nbsp;Fulvie peut-elle mourir?
+    &nbsp; — Si l'âge n'a pu affranchir mon coeur de la folie de l'amour,
+    il l'a guéri du moins de la crédulité de l'enfance! —&nbsp;Fulvie
+    peut-elle mourir?
     </p>
   </td>
   <td class="en">
@@ -2742,7 +2967,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Elle est morte, ma reine. Jetez ici les yeux et lisez à votre loisir tous les troubles qu'elle a suscités. La dernière nouvelle est la meilleure; voyez en quel lieu, en quel temps elle est morte.
+    &nbsp; — Elle est morte, ma reine. Jetez ici les yeux et lisez à votre
+    loisir tous les troubles qu'elle a suscités. La dernière nouvelle est
+    la meilleure; voyez en quel lieu, en quel temps elle est morte.
     </p>
   </td>
   <td class="en">
@@ -2760,11 +2987,15 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — O le plus faux des amants! Où sont les fioles<!-- [9] --> sacrées que tu as dû remplir des larmes de ta douleur? Ah! je vois maintenant, je vois par la mort de Fulvie comment la mienne sera reçue!
+    &nbsp; — O le plus faux des amants! Où sont les fioles<!-- [9] -->
+    sacrées que tu as dû remplir des larmes de ta douleur?
+    Ah! je vois maintenant, je vois par la mort de Fulvie
+    comment la mienne sera reçue!
     </p>
     <!--
     <p>
-    [9]: Allusion aux fioles de larmes que les Romains déposaient dans les mausolées.
+    [9]: Allusion aux fioles de larmes que les Romains déposaient
+         dans les mausolées.
     </p>
     -->
   </td>
@@ -2783,7 +3014,11 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Cessez vos reproches, et préparez-vous à entendre les projets que je porte en mon sein, qui s'accompliront ou seront abandonnés selon vos conseils. Je jure par le feu qui féconde le limon du Nil, que je pars de ces lieux votre guerrier, votre esclave, faisant la paix ou la guerre au gré de vos désirs.
+    &nbsp; — Cessez vos reproches, et préparez-vous à entendre les projets
+    que je porte en mon sein, qui s'accompliront ou seront abandonnés selon
+    vos conseils. Je jure par le feu qui féconde le limon du Nil, que je pars
+    de ces lieux votre guerrier, votre esclave, faisant la paix ou la guerre
+    au gré de vos désirs.
     </p>
   </td>
   <td class="en">
@@ -2803,7 +3038,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Coupe mon lacet, Charmiane, viens; mais non.... laisse-moi: je me sens mal, et puis mieux dans un instant: c'est ainsi qu'aime Antoine!
+    &nbsp; — Coupe mon lacet, Charmiane, viens; mais non....
+    laisse-moi: je me sens mal, et puis mieux dans un instant:
+    c'est ainsi qu'aime Antoine!
     </p>
   </td>
   <td class="en">
@@ -2820,7 +3057,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Reine bien-aimée, épargnez-moi: rendez justice à l'amour d'Antoine, qui supportera aisément une juste procédure.
+    &nbsp; — Reine bien-aimée, épargnez-moi: rendez justice à l'amour
+    d'Antoine, qui supportera aisément une juste procédure.
     </p>
   </td>
   <td class="en">
@@ -2837,7 +3075,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Fulvie doit me l'avoir appris. Ah! de grâce, détourne-toi, et verse des pleurs pour elle; puis, fais-moi tes adieux, et dis que ces pleurs coulent pour l'Égypte. Maintenant, joue devant moi une scène de dissimulation profonde et qui imite l'honneur parfait.
+    &nbsp; — Fulvie doit me l'avoir appris. Ah! de grâce, détourne-toi,
+    et verse des pleurs pour elle; puis, fais-moi tes adieux, et
+    dis que ces pleurs coulent pour l'Égypte. Maintenant, joue devant moi
+    une scène de dissimulation profonde et qui imite l'honneur parfait.
     </p>
   </td>
   <td class="en">
@@ -2902,11 +3143,17 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Jure aussi par ton bouclier... Son jeu s'améliore; mais il n'est pas encore parfait. —&nbsp;Vois, Charmiane, vois, je te prie, comme cet emportement sied bien à cet Hercule romain<!-- [10] -->.
+    &nbsp; — Jure aussi par ton bouclier... Son jeu s'améliore;
+    mais il n'est pas encore parfait. —&nbsp;Vois, Charmiane, vois,
+    je te prie, comme cet emportement sied bien à cet Hercule romain<!-- [10] -->.
     </p>
     <!--
     <p>
-    [10]: Suivant une antique tradition, les Antonius descendaient d'Hercule par son fils Antéon. Plutarque observe qu'il y avait dans le maintien d'Antoine une certaine grandeur qui lui donnait quelque ressemblance avec les statues et les médailles d'Hercule, dont Antoine affectait de contrefaire de son mieux le port et la contenance.
+    [10]: Suivant une antique tradition, les Antonius descendaient d'Hercule
+    par son fils Antéon. Plutarque observe qu'il y avait dans le maintien
+    d'Antoine une certaine grandeur qui lui donnait quelque ressemblance avec
+    les statues et les médailles d'Hercule, dont Antoine affectait de
+    contrefaire de son mieux le port et la contenance.
     </p>
     -->
   </td>
@@ -2940,7 +3187,10 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — Aimable seigneur, un seul mot... «Seigneur, il faut donc nous séparer...» Non, ce n'est pas cela: «Seigneur, nous nous sommes aimés.» Non, ce n'est pas cela; vous le savez assez!... C'est quelque chose que je voudrais dire... Oh! ma mémoire est un autre Antoine; j'ai tout oublié!
+    &nbsp; — Aimable seigneur, un seul mot... «Seigneur, il faut donc nous
+    séparer...» Non, ce n'est pas cela: «Seigneur, nous nous sommes aimés.»
+    Non, ce n'est pas cela; vous le savez assez!... C'est quelque chose que
+    je voudrais dire... Oh! ma mémoire est un autre Antoine; j'ai tout oublié!
     </p>
   </td>
   <td class="en">
@@ -2960,7 +3210,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Si votre royauté ne comptait la nonchalance parmi ses sujets, je vous prendrais vous-même pour la nonchalance.
+    &nbsp; — Si votre royauté ne comptait la nonchalance parmi ses sujets,
+    je vous prendrais vous-même pour la nonchalance.
     </p>
   </td>
   <td class="en">
@@ -2977,7 +3228,12 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     CLÉOPÂTRE.<br/>
-    &nbsp; — C'est un pénible travail que de porter cette nonchalance aussi près du coeur que je la porte! Mais, seigneur, pardonnez, puisque le soin de ma dignité me tue dès que ce soin vous déplaît. Votre honneur vous rappelle loin de moi; soyez sourd à ma folie, qui ne mérite pas la pitié; que tous les dieux soient avec vous! Que la victoire, couronnée de lauriers, se repose sur votre épée, et que de faciles succès jonchent votre sentier!
+    &nbsp; — C'est un pénible travail que de porter cette nonchalance aussi
+    près du coeur que je la porte! Mais, seigneur, pardonnez, puisque le soin
+    de ma dignité me tue dès que ce soin vous déplaît. Votre honneur vous
+    rappelle loin de moi; soyez sourd à ma folie, qui ne mérite pas la pitié;
+    que tous les dieux soient avec vous! Que la victoire, couronnée de lauriers,
+    se repose sur votre épée, et que de faciles succès jonchent votre sentier!
     </p>
   </td>
   <td class="en">
@@ -3000,7 +3256,9 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>
     ANTOINE.<br/>
-    &nbsp; — Sortons, madame, venez. Telle est notre séparation, qu'en demeurant ici vous me suivez pourtant, et que moi, en fuyant, je reste avec vous. —&nbsp;Sortons.
+    &nbsp; — Sortons, madame, venez. Telle est notre séparation,
+    qu'en demeurant ici vous me suivez pourtant, et que moi, en fuyant,
+    je reste avec vous. —&nbsp;Sortons.
     </p>
   </td>
   <td class="en">
@@ -9430,24 +9688,21 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
 <tr>
   <td class="fr">
     <p>PREMIER SERVITEUR.<br/>
-    &nbsp; &mdash; C'est ici qu'ils se placeront, camarade. La plante
-    <!--
-    <a id="footnotetag19" name="footnotetag19"></a><a href="#footnote19"><sup>19</sup></a>
-    -->
-    des pieds de quelques-uns ne tient
+    &nbsp; &mdash; C'est ici qu'ils se placeront, camarade.
+    La plante<!-- [19] --> des pieds de quelques-uns ne tient
     plus guère à la terre, le plus faible vent du monde les
     renversera.</p>
     <!--
-    <p><blockquote class="footnote"><a id="footnote19" name="footnote19"></a><b>Note 19:</b>
-    <a href="#footnotetag19">(retour)</a> <i>Some of their plants are ill rooted already</i>.</blockquote>
+    <p><b>[19]:</b>
+    <i>Some of their plants are ill rooted already</i>.
     </p>
     -->
   </td>
   <td class="en">
   <p>
     FIRST SERVANT.<br/>
-    &nbsp; Here they’ll be, man. Some o’ their plants are ill-rooted already; the
-    least wind i’ th’ world will blow them down.
+    &nbsp; Here they’ll be, man. Some o’ their plants are ill-rooted already;
+    the least wind i’ th’ world will blow them down.
   </p>
   </td>
 </tr>
@@ -9553,8 +9808,8 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
 
 <tr>
   <td class="fr">
-    <p class="stage1">(Les trompettes sonnent: arrivent Octave, Antoine,<br>
-    Pompée, Lépide, Agrippa, Mécène, Énobarbus, Ménas<br>
+    <p class="stage1">(Les trompettes sonnent: arrivent Octave, Antoine,<br/>
+    Pompée, Lépide, Agrippa, Mécène, Énobarbus, Ménas<br/>
     et autres capitaines.)</p>
   </td>
   <td class="en">
@@ -10324,7 +10579,7 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="fr">
     <p>CÉSAR.<br/>
     &nbsp; &mdash; Je voudrais bien refuser. C'est un terrible travail
-    pour moi que de laver mon cerveau, et il n'en devient que plus 
+    pour moi que de laver mon cerveau, et il n'en devient que plus
     trouble.</p>
   </td>
   <td class="en">
@@ -10441,7 +10696,7 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   </td>
   <td class="en">
   <p>
-    &nbsp; &nbsp; 
+    &nbsp; &nbsp;
     <em>Music plays. Enobarbus places them hand in hand.</em>
   </p>
   </td>
@@ -10645,6 +10900,3776 @@ DIDIER ET Cie, LIBRAIRES-ÉDITEURS
   <td class="en">
   <p>
   </p>
+  </td>
+</tr>
+
+</table>
+
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_I">
+  <td class="fr">
+    <h3 class="fr">ACTE TROISIÈME</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">ACT III</h3>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h4 class="fr">SCÈNE I</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE I.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Une plaine en Syrie.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">A plain in Syria.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>VENTIDIUS arrive en triomphe avec SILIUS et d'autres
+    Romains, officiers et soldats. On porte devant lui le corps de
+    Pacurus, fils d'Orodes, roi des Parthes.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Ventidius as it were in triumph, with Silius and other Romans,
+    Officers and Soldiers; the dead body of Pacorus borne before him.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>VENTIDIUS.<br/>
+    &nbsp; &mdash; Enfin, Parthes habiles à lancer le dard,
+    vous voilà frappés; et c'est moi que la fortune a voulu
+    choisir pour le vengeur de Crassus. Qu'on porte en tête
+    de l'armée le corps du jeune prince. Ton fils Pacorus,
+    Orodes, a payé la mort de Marcus Crassus!</p>
+  </td>
+  <td class="en">
+    <p>
+    VENTIDIUS.<br/>
+    &nbsp; Now, darting Parthia, art thou struck, and now<br/>
+    &nbsp; Pleased Fortune does of Marcus Crassus’ death<br/>
+    &nbsp; Make me revenger. Bear the king’s son’s body<br/>
+    &nbsp; Before our army. Thy Pacorus, Orodes,<br/>
+    &nbsp; Pays this for Marcus Crassus.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SILIUS.<br/>
+    &nbsp; &mdash; Noble Ventidius, tandis que ton épée fume encore
+    du sang des Parthes, poursuis les Parthes fugitifs:
+    pénètre dans la Médie, la Mésopotamie, dans tous les
+    asiles où fuient leurs soldats en déroute. Alors ton grand
+    général Antoine te fera monter sur un char de triomphe
+    et mettra des guirlandes sur la tête.</p>
+  </td>
+  <td class="en">
+    <p>
+    SILIUS.<br/>
+    &nbsp; Noble Ventidius,<br/>
+    &nbsp; Whilst yet with Parthian blood thy sword is warm,<br/>
+    &nbsp; The fugitive Parthians follow. Spur through Media,<br/>
+    &nbsp; Mesopotamia, and the shelters whither<br/>
+    &nbsp; The routed fly. So thy grand captain Antony<br/>
+    &nbsp; Shall set thee on triumphant chariots, and<br/>
+    &nbsp; Put garlands on thy head.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>VENTIDIUS.<br/>
+    &nbsp; &mdash; Oh! Silius, Silius, j'en ai fait assez. Souviens-toi
+    bien qu'un subalterne peut faire une action
+    trop éclatante; car, apprends ceci, Sinus, qu'il vaut
+    mieux laisser une entreprise inachevée que d'acquérir
+    par ses succès une renommée trop brillante, lorsque le
+    chef que nous servons est absent. César et Antoine ont
+    toujours remporté plus de victoires par leurs officiers
+    qu'en personne. Sossius, comme moi lieutenant d'Antoine
+    en Syrie, pour avoir accumulé trop de victoires,
+    qu'il remportait en quelques minutes, perdit la faveur
+    d'Antoine. Quiconque fait dans la guerre plus que son
+    général ne peut faire, devient le général de son général;
+    et l'ambition, vertu des guerriers, fait préférer une défaite
+    à une victoire qui ternit la renommée du chef. Je
+    pourrais faire davantage pour Antoine, mais je l'offenserais;
+    et son ressentiment détruirait tout le mérite de mes
+    services.</p>
+  </td>
+  <td class="en">
+    <p>
+    VENTIDIUS.<br/>
+    &nbsp; O Silius, Silius,<br/>
+    &nbsp; I have done enough. A lower place, note well,<br/>
+    &nbsp; May make too great an act. For learn this, Silius:<br/>
+    &nbsp; Better to leave undone than by our deed<br/>
+    &nbsp; Acquire too high a fame when him we serve’s away.<br/>
+    &nbsp; Caesar and Antony have ever won<br/>
+    &nbsp; More in their officer, than person. Sossius,<br/>
+    &nbsp; One of my place in Syria, his lieutenant,<br/>
+    &nbsp; For quick accumulation of renown,<br/>
+    &nbsp; Which he achieved by th’ minute, lost his favour.<br/>
+    &nbsp; Who does i’ th’ wars more than his captain can<br/>
+    &nbsp; Becomes his captain’s captain; and ambition,<br/>
+    &nbsp; The soldier’s virtue, rather makes choice of loss<br/>
+    &nbsp; Than gain which darkens him.<br/>
+    &nbsp; I could do more to do Antonius good,<br/>
+    &nbsp; But ’twould offend him, and in his offence<br/>
+    &nbsp; Should my performance perish.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SILIUS.<br/>
+    &nbsp; &mdash; Ventidius, tu possèdes ces qualités sans lesquelles
+    il n'y a presque point de différence entre un guerrier
+    et son épée. Tu écriras à Antoine?</p>
+  </td>
+  <td class="en">
+    <p>
+    SILIUS.<br/>
+    &nbsp; Thou hast, Ventidius, that<br/>
+    &nbsp; Without the which a soldier and his sword<br/>
+    &nbsp; Grants scarce distinction. Thou wilt write to Antony?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>VENTIDIUS.<br/>
+    &nbsp; &mdash; Je vais lui mander humblement tout ce
+    que nous avons exécuté <i>en son nom</i>, mot magique dans
+    la guerre. Je lui dirai comment, avec ses étendards et
+    ses troupes bien payées, nous avons chassé du champ
+    de bataille et lassé la cavalerie parthe, jusqu'alors invaincue.</p>
+  </td>
+  <td class="en">
+    <p>
+    VENTIDIUS.<br/>
+    &nbsp; I’ll humbly signify what in his name,<br/>
+    &nbsp; That magical word of war, we have effected;<br/>
+    &nbsp; How, with his banners, and his well-paid ranks,<br/>
+    &nbsp; The ne’er-yet-beaten horse of Parthia<br/>
+    &nbsp; We have jaded out o’ th’ field.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SILIUS.<br/>
+    &nbsp; &mdash; Où est-il maintenant?</p>
+  </td>
+  <td class="en">
+    <p>
+    SILIUS.<br/>
+    &nbsp; Where is he now?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>VENTIDIUS.<br/>
+    &nbsp; &mdash; Il doit se rendre à Athènes. C'est là que
+    nous allons nous hâter de le rejoindre, autant que le permettra
+    le poids de tout ce que nous traînons après nous.
+    Allons, en marche... Que l'armée défile.</p>
+  </td>
+  <td class="en">
+    <p>
+    VENTIDIUS.<br/>
+    &nbsp; He purposeth to Athens, whither, with what haste<br/>
+    &nbsp; The weight we must convey with ’s will permit,<br/>
+    &nbsp; We shall appear before him.—On there, pass along!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Ils sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_II">
+  <td class="fr">
+    <h4 class="fr">SCÈNE II</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE II.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Rome. &mdash; Antichambre de la maison de César.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Rome. An Ante-chamber in Caesar’s house.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>Entrent AGRIPPA ET ÉNOBARBUS qui se rencontrent.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Agrippa at one door, Enobarbus at another.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Quoi! nos frères se sont-ils déjà séparés?</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; What, are the brothers parted?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Ils ont terminé avec Pompée, qui vient
+    de partir; et actuellement ils sont tous les trois à sceller
+    le traité. Octavie pleure de quitter Rome. César est triste
+    et Lépide, depuis le festin de Pompée, à ce que dit Ménas,
+    est attaqué de la maladie verte.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; They have dispatched with Pompey; he is gone.<br/>
+    &nbsp; The other three are sealing. Octavia weeps<br/>
+    &nbsp; To part from Rome. Caesar is sad, and Lepidus,<br/>
+    &nbsp; Since Pompey’s feast, as Menas says, is troubled<br/>
+    &nbsp; With the greensickness.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; C'est un noble Romain que Lépide!</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; ’Tis a noble Lepidus.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Un excellent homme. Oh! comme il aime
+    César!</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; A very fine one. O, how he loves Caesar!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Oui, et avec quelle tendresse il adore Antoine!</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Nay, but how dearly he adores Mark Antony!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; César? mais c'est le Jupiter des hommes.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Caesar? Why he’s the Jupiter of men.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Et Antoine? Le dieu de ce Jupiter?</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; What’s Antony? The god of Jupiter.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS, <span class="stage2"><i>contrefaisant Lépide</i>.</span><br/>
+    &nbsp; &mdash; Vous parlez de César?
+    Comment, de ce <i>sans pareil</i>?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Spake you of Caesar? How, the nonpareil!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; O Antoine! ô oiseau d'Arabie. <!-- Le Phénix. --></p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; O, Antony! O thou Arabian bird!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Voulez-vous vanter César? dites César, et
+    restez-en là.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Would you praise Caesar, say “Caesar”. Go no further.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Vraiment, il leur a appliqué à tous deux
+    d'excellentes louanges.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Indeed, he plied them both with excellent praises.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Mais c'est César qu'il aime le mieux: cependant
+    il aime Antoine. Oh! le coeur, la langue, les chiffres,
+    les scribes, les bardes, les poètes ne peuvent penser,
+    exprimer, peindre, écrire, chanter, calculer son amour
+    pour Antoine. Mais pour César: à genoux, à genoux, et
+    admirez.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; But he loves Caesar best, yet he loves Antony.<br/>
+    &nbsp; Hoo! Hearts, tongues, figures, scribes, bards, poets, cannot<br/>
+    &nbsp; Think, speak, cast, write, sing, number—hoo!—<br/>
+    &nbsp; His love to Antony. But as for Caesar,<br/>
+    &nbsp; Kneel down, kneel down, and wonder.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Il les aime tous deux.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Both he loves.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Ils sont les ailes et lui l'escarbot; ainsi...
+    (<i>Fanfares</i>.) Mais voici le signal pour monter à cheval...
+    Adieu, noble Agrippa.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; They are his shards, and he their beetle.<br/>
+    <br/>
+    &nbsp; &nbsp; <em>[Trumpets within.]</em><br/>
+    <br/>
+    &nbsp; So,<br/>
+    &nbsp; This is to horse. Adieu, noble Agrippa.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Bonne fortune, brave soldat; adieu.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Good fortune, worthy soldier, and farewell.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Entrent Antoine, César, Lépide, Octavie.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp; <em>Enter Caesar, Antony, Lepidus and Octavia.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Seigneur, n'allez pas plus loin.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; No further, sir.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Vous m'enlevez la plus chère portion de moi-même.
+    Songez à me bien traiter dans sa personne.&mdash;Ma
+    soeur, soyez une épouse telle que ma pensée vous peint
+    à mes yeux, et que votre conduite justifie tout ce que je
+    garantirais de vous.&mdash;Noble Antoine, que ce modèle de
+    vertu, qui est placé entre nous comme le ciment de notre
+    amitié pour la soutenir, ne devienne jamais le bélier qui
+    en renverse l'édifice; car il aurait été plus aisé de nous
+    aimer sans ce nouveau lien, si nous ne le soignons pas
+    chacun de notre côté.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; You take from me a great part of myself.<br/>
+    &nbsp; Use me well in’t. Sister, prove such a wife<br/>
+    &nbsp; As my thoughts make thee, and as my farthest bond<br/>
+    &nbsp; Shall pass on thy approof. Most noble Antony,<br/>
+    &nbsp; Let not the piece of virtue which is set<br/>
+    &nbsp; Betwixt us, as the cement of our love<br/>
+    &nbsp; To keep it builded, be the ram to batter<br/>
+    &nbsp; The fortress of it. For better might we<br/>
+    &nbsp; Have loved without this mean, if on both parts<br/>
+    &nbsp; This be not cherished.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Ne m'offensez pas par votre défiance.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Make me not offended<br/>
+    &nbsp; In your distrust.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; J'ai dit.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; I have said.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Quelque scrupuleux que vous soyez sur ce
+    point, vous ne trouverez pas le moindre sujet aux craintes
+    qui paraissent vous alarmer. Que les dieux vous gardent
+    et fassent obéir le coeur des Romains à vos desseins;
+    nous allons nous séparer ici.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; You shall not find,<br/>
+    &nbsp; Though you be therein curious, the least cause<br/>
+    &nbsp; For what you seem to fear. So the gods keep you,<br/>
+    &nbsp; And make the hearts of Romans serve your ends.<br/>
+    &nbsp; We will here part.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Adieu, ma chère soeur: sois heureuse. Que
+    tous les éléments te soient propices et ne donnent à ton
+    esprit que des jouissances! Adieu.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Farewell, my dearest sister, fare thee well.<br/>
+    &nbsp; The elements be kind to thee, and make<br/>
+    &nbsp; Thy spirits all of comfort! Fare thee well.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; O mon noble frère!</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; My noble brother!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Le mois d'avril est dans ses yeux; c'est le
+    printemps de l'amour, et ces larmes, la pluie qui favorise
+    son retour.&mdash;Consolez-vous.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; The April’s in her eyes. It is love’s spring,<br/>
+    &nbsp; And these the showers to bring it on.—Be cheerful.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Seigneur, veillez sur la maison de mon
+    époux, et...</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Sir, look well to my husband’s house, and—
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Quoi, ma soeur?</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; What, Octavia?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Je vais vous le dire à l'oreille.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; I’ll tell you in your ear.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Sa langue refuse d'obéir à son coeur, et son
+    coeur ne peut exprimer ce qu'il sent à sa langue, comme
+    le duvet du cygne qui flotte sur l'onde à la marée haute,
+    sans incliner ni d'un côté ni de l'autre.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Her tongue will not obey her heart, nor can<br/>
+    &nbsp; Her heart inform her tongue—the swan’s-down feather,<br/>
+    &nbsp; That stands upon the swell at the full of tide,<br/>
+    &nbsp; And neither way inclines.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS, à <span class="stage2"><i>part, à Agrippa</i>.</span><br/>
+    &nbsp; &mdash; César pleurera-t-il?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; <em>[Aside to Agrippa.]</em> Will Caesar weep?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Il a un nuage sur le front.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; <em>[Aside to Enobarbus.]</em> He has a cloud in ’s face.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Ce serait un mauvais signe s'il était un
+    cheval; à plus forte raison, étant un homme.</p>
+    <!-- On dit qu'un cheval a un nuage sur la tête, lorsqu'il a une
+    ligne noire entre les deux yeux. Cet accident de couleur lui
+    donne un air soucieux, et indique un mauvais caractère. -->
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; <em>[Aside to Agrippa.]</em> He were the worse for that were he a horse;<br/>
+    &nbsp; So is he, being a man.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Pourquoi, Énobarbus? Antoine rugit presque
+    de douleur lorsqu'il vit Jules César mort, et à Philippes,
+    il pleura sur le corps de Brutus.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; <em>[Aside to Enobarbus.]</em> Why, Enobarbus,<br/>
+    &nbsp; When Antony found Julius Caesar dead,<br/>
+    &nbsp; He cried almost to roaring, and he wept<br/>
+    &nbsp; When at Philippi he found Brutus slain.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Cette année-là, il est vrai, il était incommodé
+    d'un rhume, il pleurait l'homme qu'il aurait de
+    bon coeur détruit lui-même. Crois à ses larmes jusqu'à ce
+    que tu m'aies vu pleurer aussi.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; <em>[Aside to Agrippa.]</em> That year, indeed, he was troubled with a rheum;<br/>
+    &nbsp; What willingly he did confound he wailed,<br/>
+    &nbsp; Believe ’t, till I weep too.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Non, chère Octavie, vous recevrez encore des
+    nouvelles de votre frère; jamais le temps ne vous fera
+    oublier de moi.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; No, sweet Octavia,<br/>
+    &nbsp; You shall hear from me still. The time shall not<br/>
+    &nbsp; Outgo my thinking on you.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Allons, seigneur, allons; je disputerai avec
+    vous de tendresse pour elle. Je vous embrasse ici, et je
+    vous quitte en vous recommandant aux dieux.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Come, sir, come,<br/>
+    &nbsp; I’ll wrestle with you in my strength of love.<br/>
+    &nbsp; Look, here I have you, thus I let you go,<br/>
+    &nbsp; And give you to the gods.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Adieu, soyez heureux.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Adieu, be happy!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LÉPIDE.<br/>
+    &nbsp; &mdash; Que tous les astres du firmament éclairent
+    votre route!</p>
+  </td>
+  <td class="en">
+    <p>
+    LEPIDUS.<br/>
+    &nbsp; Let all the number of the stars give light<br/>
+    &nbsp; To thy fair way!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR <span class="stage2"><i>embrasse sa soeur</i>.</span><br/>
+    &nbsp; &mdash; Adieu, adieu!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Farewell, farewell!<br/>
+    &nbsp; &nbsp; <em>[Kisses Octavia.]</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Adieu!</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Farewell!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>(Ils partent au son des trompettes.)</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp; <em>[Trumpets sound. Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_III">
+  <td class="fr">
+    <h4 class="fr">SCÈNE III</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE III.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Alexandrie. &mdash; Appartement du palais.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Alexandria. A Room in the Palace.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>Entrent CLÉOPÂTRE, CHARMIANE, IRAS, ALEXAS.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Cleopatra, Charmian, Iras and Alexas.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Où est ce messager?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Where is the fellow?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ALEXAS.<br/>
+    &nbsp; &mdash; Il a un peu peur de paraître devant vous.</p>
+  </td>
+  <td class="en">
+    <p>
+    ALEXAS.<br/>
+    &nbsp; Half afeared to come.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Qu'il vienne, qu'il vienne...
+    <span class="stage2">(<i>Le messager parait.</i>)</span>
+    Approche.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Go to, go to.<br/>
+    <br/>
+    &nbsp; <em>Enter a Messenger as before.</em><br/>
+    <br/>
+    &nbsp; Come hither, sir.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ALEXAS.<br/>
+    &nbsp; &mdash; Grande reine, Hérode de Judée n'oserait lever
+    les yeux sur Votre Majesté que lorsque vous êtes satisfaite.</p>
+  </td>
+  <td class="en">
+    <p>
+    ALEXAS.<br/>
+    &nbsp; Good majesty,<br/>
+    &nbsp; Herod of Jewry dare not look upon you<br/>
+    &nbsp; But when you are well pleased.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Je veux un jour avoir la tête de cet Hérode;
+    mais quoi! depuis qu'Antoine est parti, qui pourrais-je
+    charger de me l'apporter? &mdash;&nbsp;Approche-toi.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; That Herod’s head<br/>
+    &nbsp; I’ll have! But how, when Antony is gone,<br/>
+    &nbsp; Through whom I might command it?—Come thou near.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Très-gracieuse reine...</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Most gracious majesty!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; As-tu vu Octavie?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Didst thou behold Octavia?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Oui, redoutable reine.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Ay, dread queen.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Où?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Where?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; A Rome, madame. Je l'ai regardée en
+    face, et je l'ai vue marcher entre son frère et Marc-Antoine.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Madam, in Rome<br/>
+    &nbsp; I looked her in the face, and saw her led<br/>
+    &nbsp; Between her brother and Mark Antony.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Est-elle aussi grande que moi?</p>
+    <!--
+    Cette scène est une allusion évidente aux questions adressées
+    par Elisabeth à sir James Melvil sur la malheureuse Marie Stuart;
+    en consultant les <i>Mémoires</i> de sir James Melvil on s'apercevra
+    que ce rapprochement n'est pas imaginaire.
+    -->
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Is she as tall as me?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Non, madame.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; She is not, madam.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; L'as-tu entendue parler? A-t-elle la voix
+    aiguë ou basse?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Didst hear her speak? Is she shrill-tongued or low?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Madame, je l'ai entendue parler; elle a
+    la voix basse.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Madam, I heard her speak. She is low-voiced.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Ce son de voix n'est pas si agréable! il ne
+    peut l'aimer longtemps.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; That’s not so good. He cannot like her long.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; L'aimer? Oh! par Isis, cela est impossible.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; Like her? O Isis! ’Tis impossible.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Je le crois, Charmiane. Une langue épaisse
+    et une taille de naine. &mdash;&nbsp;Quelle majesté a-t-elle dans sa
+    démarche? Souviens-t'en, si tu as jamais vu de la majesté.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; I think so, Charmian: dull of tongue and dwarfish!<br/>
+    &nbsp; What majesty is in her gait? Remember,<br/>
+    &nbsp; If e’er thou look’dst on majesty.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Elle se traîne: qu'elle marche ou qu'elle
+    s'arrête, c'est la même chose; elle a un corps, mais sans
+    vie; c'est une statue, plutôt qu'une créature qui respire.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; She creeps.<br/>
+    &nbsp; Her motion and her station are as one.<br/>
+    &nbsp; She shows a body rather than a life,<br/>
+    &nbsp; A statue than a breather.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; En es-tu bien sûr?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Is this certain?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Oui, ou je ne m'y connais pas.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Or I have no observance.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; Il n'y a pas trois hommes en Égypte plus
+    en état que lui d'en juger.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; Three in Egypt<br/>
+    &nbsp; Cannot make better note.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Il est plein d'intelligence, je m'en aperçois.&mdash;Il
+    n'y a encore rien en elle.&mdash;Cet homme a un bon
+    jugement.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; He’s very knowing;<br/>
+    &nbsp; I do perceive’t. There’s nothing in her yet.<br/>
+    &nbsp; The fellow has good judgment.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; Excellent.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; Excellent.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Devine son âge, je te prie?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Guess at her years, I prithee.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Madame, elle était veuve.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Madam,<br/>
+    &nbsp; She was a widow.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Veuve? Tu l'entends, Charmiane.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Widow! Charmian, hark!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Et je pense qu'elle a trente ans.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; And I do think she’s thirty.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; As-tu son visage dans ta mémoire? Est-il
+    long ou rond?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Bear’st thou her face in mind? Is’t long or round?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Rond à l'excès.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Round even to faultiness.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Des femmes qui ont ce visage, la plupart
+    n'ont aucun esprit. &mdash;&nbsp;Ses cheveux, quelle est leur couleur?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; For the most part, too, they are foolish that are so.<br/>
+    &nbsp; Her hair, what colour?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Bruns, madame; et son front est aussi
+    bas qu'il soit possible de le désirer.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; Brown, madam, and her forehead<br/>
+    &nbsp; As low as she would wish it.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Tiens, prends cet or. Il ne faut pas t'offenser
+    de mes premières vivacités. Je veux t'employer;
+    je te trouve très-propre aux affaires; va te préparer à partir;
+    nos lettres sont prêtes.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; There’s gold for thee.<br/>
+    &nbsp; Thou must not take my former sharpness ill.<br/>
+    &nbsp; I will employ thee back again; I find thee<br/>
+    &nbsp; Most fit for business. Go make thee ready;<br/>
+    &nbsp; Our letters are prepared.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>&nbsp;</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exit Messenger.]</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; Un homme de sens.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; A proper man.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Oui, en vérité; je me repens bien de l'avoir
+    ainsi maltraité. &mdash;&nbsp;Eh bien! il me semble, d'après ce
+    qu'il en dit, que cette créature n'est pas grand'chose.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Indeed, he is so. I repent me much<br/>
+    &nbsp; That so I harried him. Why, methinks, by him,<br/>
+    &nbsp; This creature’s no such thing.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; Rien du tout, madame.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; Nothing, madam.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Cet homme a vu parfois de la majesté et
+    doit s'y connaître.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; The man hath seen some majesty, and should know.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; S'il en a vu? Bonne Isis! Lui qui a été si
+    longtemps à votre service?</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; Hath he seen majesty? Isis else defend,<br/>
+    &nbsp; And serving you so long!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; J'aurais encore une question à lui faire,
+    chère Charmiane; mais peu importe: tu me l'amèneras
+    là où j'écrirai. Je crois que tout ira bien.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; I have one thing more to ask him yet, good Charmian.<br/>
+    &nbsp; But ’tis no matter; thou shalt bring him to me<br/>
+    &nbsp; Where I will write. All may be well enough.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CHARMIANE.<br/>
+    &nbsp; &mdash; J'en réponds, madame.</p>
+  </td>
+  <td class="en">
+    <p>
+    CHARMIAN.<br/>
+    &nbsp; I warrant you, madam.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Elles sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+<table>
+
+<tr id="Act_III_Scene_IV">
+  <td class="fr">
+    <h4 class="fr">SCÈNE IV</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE IV.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Athènes. &mdash; Appartement de la maison d'Antoine.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Athens. A Room in Antony’s House.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>Entrent ANTOINE, OCTAVIE.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Antony and Octavia.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Non, non, Octavie, j'excuserais ce tort-là et
+    mille autres de ce genre; mais il a rallumé la guerre
+    contre Pompée, il a fait son testament et l'a rendu public.
+    Il a parlé de moi avec dédain; et, lors même qu'il
+    ne pouvait s'empêcher de me rendre un témoignage honorable,
+    c'était avec froideur et dégoût; il m'a fait bien
+    petite mesure. Toutes les fois qu'on a ouvert sur mon
+    compte une opinion favorable, il a fait la sourde oreille,
+    ou ne s'est expliqué que du bout des dents.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Nay, nay, Octavia, not only that—<br/>
+    &nbsp; That were excusable, that and thousands more<br/>
+    &nbsp; Of semblable import—but he hath waged<br/>
+    &nbsp; New wars ’gainst Pompey; made his will, and read it<br/>
+    &nbsp; To public ear;<br/>
+    &nbsp; Spoke scantly of me; when perforce he could not<br/>
+    &nbsp; But pay me terms of honour, cold and sickly<br/>
+    &nbsp; He vented them; most narrow measure lent me;<br/>
+    &nbsp; When the best hint was given him, he not took ’t,<br/>
+    &nbsp; Or did it from his teeth.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Ah! mon cher seigneur, ne croyez pas tout;
+    ou, si vous croyez tout, ne vous offensez pas de tout.
+    S'il faut que cette rupture arrive, jamais femme plus
+    malheureuse que moi ne se trouva, entre les partis, obligée
+    de prier pour tous deux. Les dieux se moqueront
+    désormais de mes prières, lorsque je leur dirai: <i>Ah!
+    protégez mon seigneur et mon époux!</i> et que, démentant
+    aussitôt cette prière, je leur crierai de la même voix: <i>Ah!
+    protégez mon frère! La victoire pour mon époux, la victoire
+    pour mon frère!</i> Je prierai et je contredirai ma prière.
+    Point de milieu entre ces deux extrémités.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; O, my good lord,<br/>
+    &nbsp; Believe not all, or if you must believe,<br/>
+    &nbsp; Stomach not all. A more unhappy lady,<br/>
+    &nbsp; If this division chance, ne’er stood between,<br/>
+    &nbsp; Praying for both parts.<br/>
+    &nbsp; The good gods will mock me presently<br/>
+    &nbsp; When I shall pray “O, bless my lord and husband!”<br/>
+    &nbsp; Undo that prayer by crying out as loud<br/>
+    &nbsp; “O, bless my brother!” Husband win, win brother,<br/>
+    &nbsp; Prays and destroys the prayer; no midway<br/>
+    &nbsp; ’Twixt these extremes at all.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Douce Octavie, que votre amour préfère
+    celui qui se montrera plus jaloux de le conserver. Si je
+    perds mon honneur, je me perds moi-même. Il vaudrait
+    mieux que je ne fusse pas à vous, que d'être à vous sans
+    honneur. Mais, comme vous l'avez demandé, vous pouvez
+    être médiatrice entre nous deux. Pendant ce temps,
+    je vais faire des préparatifs de guerre capables d'arrêter
+    votre frère. Faites toute la diligence que vous voudrez,
+    vos désirs sont accomplis.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Gentle Octavia,<br/>
+    &nbsp; Let your best love draw to that point which seeks<br/>
+    &nbsp; Best to preserve it. If I lose mine honour,<br/>
+    &nbsp; I lose myself; better I were not yours<br/>
+    &nbsp; Than yours so branchless. But, as you requested,<br/>
+    &nbsp; Yourself shall go between’s. The meantime, lady,<br/>
+    &nbsp; I’ll raise the preparation of a war<br/>
+    &nbsp; Shall stain your brother. Make your soonest haste,<br/>
+    &nbsp; So your desires are yours.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; J'en rends grâce à mon seigneur. &mdash;&nbsp;Que
+    le tout-puissant Jupiter fasse de moi, femme faible, bien
+    faible, votre réconciliatrice! La guerre entre vous deux,
+    c'est comme si le globe s'entr'ouvrait et qu'il fallût combler
+    le gouffre avec des cadavres.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Thanks to my lord.<br/>
+    &nbsp; The Jove of power make me, most weak, most weak,<br/>
+    &nbsp; Your reconciler! Wars ’twixt you twain would be<br/>
+    &nbsp; As if the world should cleave, and that slain men<br/>
+    &nbsp; Should solder up the rift.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Dès que vous reconnaîtrez où commencent
+    ces maux, tournez de ce côté votre déplaisir; car nos
+    fautes ne peuvent jamais être si égales, que votre amour
+    puisse se diriger également des deux côtés. Disposez tout
+    pour votre départ; nommez ceux qui doivent vous accompagner,
+    et faites toutes les dépenses que vous voudrez.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; When it appears to you where this begins,<br/>
+    &nbsp; Turn your displeasure that way, for our faults<br/>
+    &nbsp; Can never be so equal that your love<br/>
+    &nbsp; Can equally move with them. Provide your going;<br/>
+    &nbsp; Choose your own company, and command what cost<br/>
+    &nbsp; Your heart has mind to.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Ils se séparent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp;
+    &nbsp; [Exeunt.]
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_V">
+  <td class="fr">
+    <h4 class="fr">SCÈNE V</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE V.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Athènes: un autre appartement de la maison d'Antoine.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Athens. Another Room in Antony’s House.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>ÉNOBARBUS ET ÉROS se rencontrent</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Enobarbus and Eros meeting.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Eh bien! ami Éros?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; How now, friend Eros?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; Il y a d'étranges nouvelles, seigneur.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; There’s strange news come, sir.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Quoi donc?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; What, man?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; César et Lépide ont fait la guerre à Pompée.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; Caesar and Lepidus have made wars upon Pompey.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Ceci est vieux; qu'elle en a été l'issue?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; This is old. What is the success?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; César, après avoir profité des services de Lépide
+    dans la guerre contre Pompée, lui a refusé ensuite l'égalité
+    du rang, n'a pas voulu qu'il partageât la gloire du
+    combat, et, ne s'arrêtant pas là, il l'accuse d'avoir entretenu
+    auparavant une correspondance avec Pompée. Sur sa
+    propre accusation, il a fait arrêter Lépide. Ainsi, voilà le
+    pauvre triumvir à bas, jusqu'à ce que la mort élargisse
+    sa prison.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; Caesar, having made use of him in the wars ’gainst Pompey, presently
+    &nbsp; denied him rivality; would not let him partake in the glory of the
+    &nbsp; action, and, not resting here, accuses him of letters he had formerly
+    &nbsp; wrote to Pompey; upon his own appeal, seizes him. So the poor third is
+    &nbsp; up, till death enlarge his confine.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Alors, ô univers, de trois loups, tu n'en
+    as plus que deux; jette au milieu d'eux toute la nourriture
+    que tu possèdes, et ils se dévoreront l'un l'autre.
+    &mdash;&nbsp;Où est Antoine?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Then, world, thou hast a pair of chaps, no more,<br/>
+    &nbsp; And throw between them all the food thou hast,<br/>
+    &nbsp; They’ll grind the one the other. Where’s Antony?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; Il se promène dans les jardins, &mdash;comme ceci&mdash;
+    et il foule aux pieds les joncs qu'il rencontre devant lui,
+    en s'écriant: <i>O imbécile Lépide</i>! Et il menace la tête de
+    son officier, celui qui a assassiné Pompée.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; He’s walking in the garden, thus, and spurns<br/>
+    &nbsp; The rush that lies before him; cries “Fool Lepidus!”<br/>
+    &nbsp; And threats the throat of that his officer<br/>
+    &nbsp; That murdered Pompey.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Notre belle flotte est équipée.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Our great navy’s rigged.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; Elle est destinée pour l'Italie et contre César.
+    D'autres nouvelles: Dominus.... Mais Antoine vous attend.
+    J'aurais pu vous dire mes nouvelles plus tard.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; For Italy and Caesar. More, Domitius:<br/>
+    &nbsp; My lord desires you presently. My news<br/>
+    &nbsp; I might have told hereafter.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Ce sera peu de chose; mais n'importe.
+    Conduis-moi près d'Antoine.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; ’Twill be naught,<br/>
+    &nbsp; But let it be. Bring me to Antony.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉROS.<br/>
+    &nbsp; &mdash; Venez, seigneur.</p>
+  </td>
+  <td class="en">
+    <p>
+    EROS.<br/>
+    &nbsp; Come, sir.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Ils sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_VI">
+  <td class="fr">
+    <h4 class="fr">SCÈNE VI</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE VI.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Rome. &mdash; Appartement de César.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Rome. A Room in Caesar’s House.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>CÉSAR, AGRIPPA, MÉCÈNE.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Agrippa, Maecenas and Caesar.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Au mépris de Rome, il a fait tout ceci, et plus
+    encore dans Alexandrie; et voilà comment, dans la place
+    publique, Cléopâtre et lui se sont assis publiquement sur
+    des trônes d'or, dans une tribune d'argent; à leurs pieds
+    était placé le jeune Césarion, qu'ils appellent le fils de
+    mon père avec tous les enfants illégitimes issus depuis
+    lors de leurs débauches. Antoine a fait don de l'Égypte à
+    Cléopâtre, il l'a proclamée reine absolue de la basse Syrie,
+    de l'île de Chypre et de la Libye.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Contemning Rome, he has done all this, and more<br/>
+    &nbsp; In Alexandria. Here’s the manner of ’t:<br/>
+    &nbsp; I’ th’ market-place, on a tribunal silvered,<br/>
+    &nbsp; Cleopatra and himself in chairs of gold<br/>
+    &nbsp; Were publicly enthroned. At the feet sat<br/>
+    &nbsp; Caesarion, whom they call my father’s son,<br/>
+    &nbsp; And all the unlawful issue that their lust<br/>
+    &nbsp; Since then hath made between them. Unto her<br/>
+    &nbsp; He gave the stablishment of Egypt; made her<br/>
+    &nbsp; Of lower Syria, Cyprus, Lydia,<br/>
+    &nbsp; Absolute queen.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>MÉCÈNE.<br/>
+    &nbsp; &mdash; Quoi! aux yeux du public?</p>
+  </td>
+  <td class="en">
+    <p>
+    MAECENAS.<br/>
+    &nbsp; This in the public eye?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Au milieu même de la grande place, où le
+    peuple fait tous ses exercices. C'est là qu'il a proclamé
+    ses fils rois des rois; il a donné à Alexandre la vaste Médie,
+    le pays des Parthes et l'Arménie; il a assigné à Ptolémée
+    la Syrie, la Cilicie et la Phénicie. Cléopâtre, ce
+    jour-là, a paru en public vêtue comme la déesse Isis, et
+    souvent auparavant elle avait, dit-on, donné ses audiences
+    dans cet appareil.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; I’ th’ common showplace where they exercise.<br/>
+    &nbsp; His sons he there proclaimed the kings of kings:<br/>
+    &nbsp; Great Media, Parthia, and Armenia<br/>
+    &nbsp; He gave to Alexander; to Ptolemy he assigned<br/>
+    &nbsp; Syria, Cilicia, and Phoenicia. She<br/>
+    &nbsp; In th’ habiliments of the goddess Isis<br/>
+    &nbsp; That day appeared, and oft before gave audience,<br/>
+    &nbsp; As ’tis reported, so.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>MÉCÈNE.<br/>
+    &nbsp; &mdash; Il faut que Rome soit instruite de toutes ces
+    choses.</p>
+  </td>
+  <td class="en">
+    <p>
+    MAECENAS.<br/>
+    &nbsp; Let Rome be thus informed.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Rome, déjà lassée de son insolence, lui retirera
+    sa bonne opinion.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Who, queasy with his insolence already,<br/>
+    &nbsp; Will their good thoughts call from him.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Le peuple en est instruit, et cependant il vient
+    de recevoir les accusations d'Antoine!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; The people knows it and have now received<br/>
+    &nbsp; His accusations.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Qui donc accuse-t-il!</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Who does he accuse?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; César. Il se plaint de ce qu'ayant dépouillé
+    Sextus Pompée de la Sicile, je l'ai frustré de sa part de
+    cette île; et il dit ensuite m'avoir prêté quelques vaisseaux
+    qui ne lui ont pas été rendus. Enfin, il se montre
+    indigné de ce que Lépide a été déposé du triumvirat, et
+    de ce qu'une fois déposé j'ai retenu tous ses revenus.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Caesar, and that, having in Sicily<br/>
+    &nbsp; Sextus Pompeius spoiled, we had not rated him<br/>
+    &nbsp; His part o’ th’ isle. Then does he say he lent me<br/>
+    &nbsp; Some shipping, unrestored. Lastly, he frets<br/>
+    &nbsp; That Lepidus of the triumvirate<br/>
+    &nbsp; Should be deposed and, being, that we detain<br/>
+    &nbsp; All his revenue.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Seigneur, il faut lui répondre.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Sir, this should be answered.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; C'est déjà fait, et le messager est parti. Je lui
+    mande que Lépide était devenu trop cruel, qu'il abusait
+    de son autorité, et qu'il a mérité d'être déposé. Quant à
+    mes conquêtes, je lui en accorde une portion; mais, en
+    retour, je lui demande ma part de l'Arménie et des autres
+    royaumes qu'il a conquis.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; ’Tis done already, and messenger gone.<br/>
+    &nbsp; I have told him Lepidus was grown too cruel,<br/>
+    &nbsp; That he his high authority abused,<br/>
+    &nbsp; And did deserve his change. For what I have conquered<br/>
+    &nbsp; I grant him part; but then in his Armenia<br/>
+    &nbsp; And other of his conquered kingdoms, I<br/>
+    &nbsp; Demand the like.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>MÉCÈNE.<br/>
+    &nbsp; &mdash; Jamais il ne vous la cédera.</p>
+  </td>
+  <td class="en">
+    <p>
+    MAECENAS.<br/>
+    &nbsp; He’ll never yield to that.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Alors, je ne dois pas lui céder, moi, ce qu'il
+    demande.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Nor must not then be yielded to in this.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Entre Octavie.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Octavia with her train.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Salut, César, monseigneur, salut, mon cher
+    César.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Hail, Caesar, and my lord! Hail, most dear Caesar!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Que je sois obligé de t'appeler une femme répudiée!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; That ever I should call thee castaway!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Vous ne m'avez pas appelée ainsi, et vous
+    n'en avez pas sujet.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; You have not called me so, nor have you cause.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Pourquoi donc venez-vous me surprendre
+    ainsi? Vous ne revenez point comme la soeur de César:
+    l'épouse d'Antoine devrait être précédée d'une armée,
+    son approche devait être annoncée par les hennissements
+    des chevaux, longtemps avant qu'elle parût; les arbres
+    de la route auraient dû être chargés de peuple, impatient
+    et fatigué d'attendre votre passage désiré; il fallait que la
+    poussière élevée sous les pas de votre nombreux cortège
+    montât jusqu'à la voûte des cieux. Mais vous êtes venue
+    à Rome comme une vendeuse de marché: vous avez
+    prévenu les démonstrations de notre amitié, ce sentiment
+    qui s'éteint souvent si on néglige de le témoigner. Nous
+    aurions été à votre rencontre par mer et par terre, et
+    à chaque pas nous aurions redoublé d'éclat.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Why have you stolen upon us thus? You come not<br/>
+    &nbsp; Like Caesar’s sister. The wife of Antony<br/>
+    &nbsp; Should have an army for an usher, and<br/>
+    &nbsp; The neighs of horse to tell of her approach<br/>
+    &nbsp; Long ere she did appear. The trees by th’ way<br/>
+    &nbsp; Should have borne men, and expectation fainted,<br/>
+    &nbsp; Longing for what it had not. Nay, the dust<br/>
+    &nbsp; Should have ascended to the roof of heaven,<br/>
+    &nbsp; Raised by your populous troops. But you are come<br/>
+    &nbsp; A market-maid to Rome, and have prevented<br/>
+    &nbsp; The ostentation of our love, which, left unshown,<br/>
+    &nbsp; Is often left unloved. We should have met you<br/>
+    &nbsp; By sea and land, supplying every stage<br/>
+    &nbsp; With an augmented greeting.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Mon bon frère, rien ne me forçait à revenir
+    ainsi: je n'ai fait que suivre mon libre penchant. Mon
+    époux, Marc-Antoine, ayant appris que vous vous prépariez
+    à la guerre, a affligé mon oreille de cette fâcheuse
+    nouvelle; et moi aussitôt je l'ai prié de m'accorder la liberté
+    de revenir vers vous.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Good my lord,<br/>
+    &nbsp; To come thus was I not constrained, but did it<br/>
+    &nbsp; On my free will. My lord, Mark Antony,<br/>
+    &nbsp; Hearing that you prepared for war, acquainted<br/>
+    &nbsp; My grieved ear withal, whereon I begged<br/>
+    &nbsp; His pardon for return.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Ce qu'il vous a accordé sans peine: vous étiez
+    un obstacle à ses débauches.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Which soon he granted,<br/>
+    &nbsp; Being an abstract ’tween his lust and him.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; N'en jugez pas ainsi, seigneur.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Do not say so, my lord.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; J'ai les yeux sur lui, et les vents m'apportent
+    des nouvelles de toutes ses démarches. Où est-il maintenant?</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; I have eyes upon him,<br/>
+    &nbsp; And his affairs come to me on the wind.<br/>
+    &nbsp; Where is he now?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; A Athènes, seigneur.</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; My lord, in Athens.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Non, ma soeur, trop indignement outragée,
+    Cléopâtre, d'un coup d'oeil, l'a rappelé à ses pieds. Il a
+    abandonné son empire à une prostituée, et maintenant
+    ils s'occupent tous deux à soulever contre moi tous les
+    rois de la terre. Il a rassemblé Bocchus, roi de Libye;
+    Archélaüs, roi de Cappadoce; Philadelphe, roi de Paphlagonie;
+    le roi de Thrace, Adellas; Malchus, roi d'Arabie;
+    le roi de Pont; Hérode, de Judée; Mithridate, roi de
+    Comagène; Polémon et Amintas, rois des Mèdes et de
+    Lycaonie; et encore une foule d'autres sceptres!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; No, my most wronged sister. Cleopatra<br/>
+    &nbsp; Hath nodded him to her. He hath given his empire<br/>
+    &nbsp; Up to a whore, who now are levying<br/>
+    &nbsp; The kings o’ th’ earth for war. He hath assembled<br/>
+    &nbsp; Bocchus, the king of Libya; Archelaus<br/>
+    &nbsp; Of Cappadocia; Philadelphos, king<br/>
+    &nbsp; Of Paphlagonia; the Thracian king, Adallas;<br/>
+    &nbsp; King Manchus of Arabia; King of Pont;<br/>
+    &nbsp; Herod of Jewry; Mithridates, king<br/>
+    &nbsp; Of Comagene; Polemon and Amyntas,<br/>
+    &nbsp; The kings of Mede and Lycaonia,<br/>
+    &nbsp; With a more larger list of sceptres.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Hélas! que je suis malheureuse d'avoir le
+    coeur partagé entre deux hommes que j'aime et qui se
+    haïssent!</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Ay me, most wretched,<br/>
+    &nbsp; That have my heart parted betwixt two friends<br/>
+    &nbsp; That does afflict each other!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Soyez ici la bienvenue. Vos lettres ont retardé
+    longtemps notre rupture: jusqu'à ce que je me sois
+    aperçu à quel point vous étiez abusée, et combien une
+    plus longue négligence devenait dangereuse pour moi.
+    Consolez-vous; ne vous agitez pas des circonstances qui
+    amènent sur votre bonheur ces terribles nécessités, et
+    laissez les invariables décrets du destin suivre leur cours,
+    sans vous répandre en gémissements. Rome vous reçoit
+    avec joie: rien ne m'est plus cher que vous. Vous avez
+    été trompée au delà de tout ce qu'on peut imaginer, et
+    les puissants dieux, pour vous faire justice, ont choisi
+    pour ministres de leur vengeance, votre frère et ceux
+    qui vous aiment. Vous êtes la plus douce de nos consolations,
+    et toujours la bienvenue auprès de nous.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Welcome hither.<br/>
+    &nbsp; Your letters did withhold our breaking forth<br/>
+    &nbsp; Till we perceived both how you were wrong led<br/>
+    &nbsp; And we in negligent danger. Cheer your heart.<br/>
+    &nbsp; Be you not troubled with the time, which drives<br/>
+    &nbsp; O’er your content these strong necessities,<br/>
+    &nbsp; But let determined things to destiny<br/>
+    &nbsp; Hold unbewailed their way. Welcome to Rome,<br/>
+    &nbsp; Nothing more dear to me. You are abused<br/>
+    &nbsp; Beyond the mark of thought, and the high gods,<br/>
+    &nbsp; To do you justice, make their ministers<br/>
+    &nbsp; Of us and those that love you. Best of comfort,<br/>
+    &nbsp; And ever welcome to us.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>AGRIPPA.<br/>
+    &nbsp; &mdash; Soyez la bienvenue, madame.</p>
+  </td>
+  <td class="en">
+    <p>
+    AGRIPPA.<br/>
+    &nbsp; Welcome, lady.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>MÉCÈNE.<br/>
+    &nbsp; &mdash; Soyez la bienvenue, chère dame; tous les
+    coeurs, dans Rome, vous aiment et vous plaignent. L'adultère
+    Antoine, sans frein dans ses désordres, est le seul
+    qui vous rejette pour livrer sa puissance à une prostituée
+    qui la tourne avec bruit contre nous.</p>
+  </td>
+  <td class="en">
+    <p>
+    MAECENAS.<br/>
+    &nbsp; Welcome, dear madam.<br/>
+    &nbsp; Each heart in Rome does love and pity you.<br/>
+    &nbsp; Only th’ adulterous Antony, most large<br/>
+    &nbsp; In his abominations, turns you off<br/>
+    &nbsp; And gives his potent regiment to a trull<br/>
+    &nbsp; That noises it against us.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>OCTAVIE.<br/>
+    &nbsp; &mdash; Est-il bien vrai, seigneur?</p>
+  </td>
+  <td class="en">
+    <p>
+    OCTAVIA.<br/>
+    &nbsp; Is it so, sir?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Rien n'est plus certain, vous êtes la bienvenue,
+    ma soeur; je vous prie, ne perdez pas patience, ma chère soeur!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Most certain. Sister, welcome. Pray you<br/>
+    &nbsp; Be ever known to patience. My dear’st sister!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Ils sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_VII">
+  <td class="fr">
+    <h4 class="fr">SCÈNE VII</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE VII.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Le camp d'Antoine près du promontoire d'Actium.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Antony’s Camp near the Promontory of Actium.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>Entrent CLÉOPÂTRE, ÉNOBARBUS.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Cleopatra and Enobarbus.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Je m'acquitterai envers toi, n'en doute pas.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; I will be even with thee, doubt it not.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Mais pourquoi? pourquoi? pourquoi?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; But why, why, why?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Tu t'es opposé à ce que j'assistasse à cette
+    guerre, en disant que ce n'était pas convenable.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Thou hast forspoke my being in these wars<br/>
+    &nbsp; And say’st it is not fit.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Eh bien! est-ce convenable, dites-moi?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Well, is it, is it?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Pourquoi pas? La guerre est déclarée
+    contre moi, pourquoi n'y serais-je pas en personne?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Is ’t not denounced against us? Why should not we<br/>
+    &nbsp; Be there in person?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Je sais bien ce que je pourrais répondre:
+    si nous nous servions en même temps de chevaux et de
+    cavales, les chevaux seraient absolument superflus, car
+    chaque cavale porterait un soldat et son cheval.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Well, I could reply:<br/>
+    &nbsp; If we should serve with horse and mares together,<br/>
+    &nbsp; The horse were merely lost. The mares would bear<br/>
+    &nbsp; A soldier and his horse.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Que murmures-tu là?</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; What is’t you say?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Votre présence doit nécessairement embarrasser
+    Antoine: elle prendra de son coeur, de sa tête,
+    de son temps, ce dont il n'a rien à perdre en cette circonstance.
+    On le raille déjà sur sa légèreté, et l'on dit
+    dans Rome que c'est l'eunuque Photin et vos femmes qui
+    dirigent cette guerre.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Your presence needs must puzzle Antony,<br/>
+    &nbsp; Take from his heart, take from his brain, from ’s time,<br/>
+    &nbsp; What should not then be spared. He is already<br/>
+    &nbsp; Traduced for levity, and ’tis said in Rome<br/>
+    &nbsp; That Photinus, an eunuch, and your maids<br/>
+    &nbsp; Manage this war.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Que Rome s'abîme! et périssent toutes
+    les langues qui parlent contre nous! Je porte ma part du
+    fardeau dans cette guerre, et, comme souveraine de mes
+    États, je dois y remplir le rôle d'un homme. N'objecte
+    plus rien, je ne resterai pas en arrière.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Sink Rome, and their tongues rot<br/>
+    &nbsp; That speak against us! A charge we bear i’ th’ war,<br/>
+    &nbsp; And, as the president of my kingdom, will<br/>
+    &nbsp; Appear there for a man. Speak not against it.<br/>
+    &nbsp; I will not stay behind.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Je me tais, madame. &mdash;&nbsp;Voici l'empereur.</p>
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Entrent Antoine et Canidius.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Antony and Canidius.</em>
+    </p>
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Nay, I have done.<br/>
+    &nbsp; Here comes the Emperor.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Ne te parait-il pas étrange, Canidius, que
+    César ait pu, de Tarente et de Brindes, traverser si rapidement
+    la mer d'Ionie et emporter Toryne? &mdash;&nbsp;Vous l'avez
+    appris, mon coeur?</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Is it not strange, Canidius,<br/>
+    &nbsp; That from Tarentum and Brundusium<br/>
+    &nbsp; He could so quickly cut the Ionian sea<br/>
+    &nbsp; And take in Toryne?—You have heard on ’t, sweet?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; La diligence n'est jamais plus admirée
+    que par les paresseux.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; Celerity is never more admired<br/>
+    &nbsp; Than by the negligent.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Bonne satire de notre indolence, et qui ferait
+    honneur au plus brave guerrier. &mdash;&nbsp;Canidius, nous
+    le combattrons sur mer.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; A good rebuke,<br/>
+    &nbsp; Which might have well becomed the best of men<br/>
+    &nbsp; To taunt at slackness.—Canidius, we<br/>
+    &nbsp; Will fight with him by sea.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; Oui, sur mer, sans doute.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; By sea, what else?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Pourquoi mon général a-t-il ce projet?</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Why will my lord do so?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Parce qu'il nous en a défié.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; For that he dares us to ’t.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Mon seigneur l'a aussi défié en combat
+    singulier?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; So hath my lord dared him to single fight.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Oui, et vous lui avez offert le combat à
+    Pharsale, où César vainquit Pompée; mais toutes les propositions
+    qui ne servent pas à son avantage, il les rejette.
+    Vous devriez en faire autant.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Ay, and to wage this battle at Pharsalia,<br/>
+    &nbsp; Where Caesar fought with Pompey. But these offers,<br/>
+    &nbsp; Which serve not for his vantage, he shakes off,<br/>
+    &nbsp; And so should you.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Vos vaisseaux sont mal équipés, vos matelots
+    ne sont que des muletiers, des moissonneurs, des
+    gens levés à la hâte et par contrainte. La flotte de César
+    est montée par des marins qui ont souvent combattu
+    Pompée: leurs vaisseaux sont légers, les vôtres sont
+    pesants; il n'y a pour vous aucun déshonneur à refuser
+    le combat sur mer, puisque vous êtes prêt à l'attaquer
+    sur terre.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Your ships are not well manned,<br/>
+    &nbsp; Your mariners are muleteers, reapers, people<br/>
+    &nbsp; Engrossed by swift impress. In Caesar’s fleet<br/>
+    &nbsp; Are those that often have ’gainst Pompey fought.<br/>
+    &nbsp; Their ships are yare, yours heavy. No disgrace<br/>
+    &nbsp; Shall fall you for refusing him at sea,<br/>
+    &nbsp; Being prepared for land.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Sur mer, sur mer.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; By sea, by sea.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Mon digne seigneur, vous perdez par là
+    toute la supériorité que vous avez sur terre: vous démembrez
+    votre armée, qui, en grande partie, est composée
+    d'une infanterie aguerrie; vous laissez sans emploi
+    votre habileté si justement renommée; vous abandonnez
+    le parti qui vous promet un succès assuré: vous vous
+    exposez au simple caprice du hasard.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Most worthy sir, you therein throw away<br/>
+    &nbsp; The absolute soldiership you have by land;<br/>
+    &nbsp; Distract your army, which doth most consist<br/>
+    &nbsp; Of war-marked footmen; leave unexecuted<br/>
+    &nbsp; Your own renowned knowledge; quite forgo<br/>
+    &nbsp; The way which promises assurance; and<br/>
+    &nbsp; Give up yourself merely to chance and hazard<br/>
+    &nbsp; From firm security.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Je veux combattre sur mer.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; I’ll fight at sea.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CLÉOPÂTRE.<br/>
+    &nbsp; &mdash; J'ai soixante vaisseaux; César n'en a pas
+    de meilleurs.</p>
+  </td>
+  <td class="en">
+    <p>
+    CLEOPATRA.<br/>
+    &nbsp; I have sixty sails, Caesar none better.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Nous brûlerons le surplus de notre flotte;
+    et avec les autres vaisseaux bien équipés, nous battrons
+    César, s'il ose avancer vers le promontoire d'Actium. Si
+    la fortune nous trahit, nous pourrons alors prendre
+    notre revanche sur terre. (<i>A un messager qui arrive</i>.)
+    Ton message?</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Our overplus of shipping will we burn,<br/>
+    &nbsp; And with the rest full-manned, from th’ head of Actium<br/>
+    &nbsp; Beat th’ approaching Caesar. But if we fail,<br/>
+    &nbsp; We then can do ’t at land.<br/>
+    &nbsp; <br/>
+    &nbsp; &nbsp; Enter a Messenger.<br/>
+    &nbsp; <br/>
+    &nbsp; Thy business?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; Les nouvelles sont vraies, seigneur,
+    César est signalé; il a pris Toryne.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; The news is true, my lord; he is descried.<br/>
+    &nbsp; Caesar has taken Toryne.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Peut-il y être en personne? Cela est impossible;
+    il est même étrange que son armée y soit arrivée.
+    Canidius, tu commanderas sur terre nos dix-neuf légions
+    et nos douze mille chevaux; nous, nous allons à notre
+    flotte. Partons, ma Thétis. (<i>Un soldat paraît</i>.)
+    Que veux-tu, brave soldat?</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Can he be there in person? ’Tis impossible;<br/>
+    &nbsp; Strange that his power should be. Canidius,<br/>
+    &nbsp; Our nineteen legions thou shalt hold by land,<br/>
+    &nbsp; And our twelve thousand horse. We’ll to our ship.<br/>
+    &nbsp; Away, my Thetis!<br/>
+    &nbsp; <br/>
+    &nbsp; &nbsp; <em>Enter a Soldier.</em><br/>
+    &nbsp; <br/>
+    &nbsp; How now, worthy soldier?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE SOLDAT.<br/>
+    &nbsp; &mdash; O noble empereur, ne combattez point
+    sur mer; ne vous fiez pas à des planches pourries. Est-ce
+    que vous vous défiez de cette épée et de ces blessures?
+    Laissez aux Égyptiens et aux Phéniciens l'art de nager
+    comme les oisons: nous, Romains, nous avons l'habitude
+    de vaincre sur terre, et en combattant de pied
+    ferme.</p>
+  </td>
+  <td class="en">
+    <p>
+    SOLDIER.<br/>
+    &nbsp; O noble emperor, do not fight by sea.<br/>
+    &nbsp; Trust not to rotten planks. Do you misdoubt<br/>
+    &nbsp; This sword and these my wounds? Let th’ Egyptians<br/>
+    &nbsp; And the Phoenicians go a-ducking. We<br/>
+    &nbsp; Have used to conquer standing on the earth<br/>
+    &nbsp; And fighting foot to foot.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Allons, allons, partons.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Well, well, away.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Antoine, Cléopâtre, Énobarbus sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt Antony, Cleopatra and Enobarbus.]</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE SOLDAT.<br/>
+    &nbsp; &mdash; Par Hercule, je crois que j'ai raison.</p>
+  </td>
+  <td class="en">
+    <p>
+    SOLDIER.<br/>
+    &nbsp; By Hercules, I think I am i’ th’ right.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Oui, soldat; mais Antoine ne se repose plus
+    sur ce qui fait sa force. C'est ainsi que notre chef se
+    laisse mener, et nous sommes les soldats de ces femmes.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Soldier, thou art. But his whole action grows<br/>
+    &nbsp; Not in the power on ’t. So our leader’s led,<br/>
+    &nbsp; And we are women’s men.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE SOLDAT.<br/>
+    &nbsp; &mdash; Vous gardez à terre les légions et toute la
+    cavalerie, n'est-ce pas?</p>
+  </td>
+  <td class="en">
+    <p>
+    SOLDIER.<br/>
+    &nbsp; You keep by land<br/>
+    &nbsp; The legions and the horse whole, do you not?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Marcus Octavius, Marcus Justéius, Publicola
+    et Caelius sont pour la mer; mais nous restons tranquilles
+    à terre. &mdash;&nbsp;Cette diligence de César passe toute
+    croyance.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Marcus Octavius, Marcus Justeius,<br/>
+    &nbsp; Publicola, and Caelius are for sea,<br/>
+    &nbsp; But we keep whole by land. This speed of Caesar’s<br/>
+    &nbsp; Carries beyond belief.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE SOLDAT.<br/>
+    &nbsp; &mdash; Pendant qu'il était encore à Rome, son armée
+    marchait par légers détachements, qui ont trompé tous les
+    espions.</p>
+  </td>
+  <td class="en">
+    <p>
+    SOLDIER.<br/>
+    &nbsp; While he was yet in Rome,<br/>
+    &nbsp; His power went out in such distractions as<br/>
+    &nbsp; Beguiled all spies.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Quel est son lieutenant, le sais-tu?</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Who’s his lieutenant, hear you?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE SOLDAT.<br/>
+    &nbsp; &mdash; On dit que c'est un certain Taurus.</p>
+  </td>
+  <td class="en">
+    <p>
+    SOLDIER.<br/>
+    &nbsp; They say one Taurus.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Oh! je connais l'homme!</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Well I know the man.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Un messager arrive.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter a Messenger.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>LE MESSAGER.<br/>
+    &nbsp; &mdash; L'empereur demande Canidius.</p>
+  </td>
+  <td class="en">
+    <p>
+    MESSENGER.<br/>
+    &nbsp; The Emperor calls Canidius.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Le temps est gros d'évènements, et en enfante
+    à chaque minute.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; With news the time’s with labour, and throes forth<br/>
+    &nbsp; Each minute some.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    &nbsp; &nbsp;
+    (Ils sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+
+
+<table>
+
+<tr id="Act_III_Scene_VIII">
+  <td class="fr">
+    <h4 class="fr">SCÈNE VIII</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE VIII.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr">Une plaine près d'Actium.</h5>
+  </td>
+  <td class="en">
+    <h5 class="en">A plain near Actium.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+    &nbsp; &nbsp;
+    <em>Entrent CÉSAR, TAURUS, officiers et autres.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Caesar with his army and Taurus marching.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; Taurus!</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Taurus!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>TAURUS.<br/>
+    &nbsp; &mdash; Seigneur!</p>
+  </td>
+  <td class="en">
+    <p>
+    TAURUS.<br/>
+    &nbsp; My lord?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CÉSAR.<br/>
+    &nbsp; &mdash; N'agis point sur terre; reste tranquille, et ne
+    provoque pas le combat que l'affaire ne soit décidée sur
+    mer: ne dépasse pas les ordres de ce parchemin, notre
+    fortune en dépend.</p>
+  </td>
+  <td class="en">
+    <p>
+    CAESAR.<br/>
+    &nbsp; Strike not by land; keep whole; provoke not battle<br/>
+    &nbsp; Till we have done at sea. Do not exceed<br/>
+    &nbsp; The prescript of this scroll. Our fortune lies<br/>
+    &nbsp; Upon this jump.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Ils sortent.)<br/>
+    (Entrent Antoine et Énobarbus.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h4 class="fr"></h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE IX.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr"></h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Another part of the Plain.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>&nbsp;</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Antony and Enobarbus.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ANTOINE.<br/>
+    &nbsp; &mdash; Plaçons nos escadrons de ce côté de la montagne,
+    en face de l'armée de César; de ce poste, nous
+    pourrons découvrir le nombre de ses vaisseaux et agir
+    en conséquence.</p>
+  </td>
+  <td class="en">
+    <p>
+    ANTONY.<br/>
+    &nbsp; Set we our squadrons on yon side o’ th’ hill<br/>
+    &nbsp; In eye of Caesar’s battle, from which place<br/>
+    &nbsp; We may the number of the ships behold<br/>
+    &nbsp; And so proceed accordingly.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Ils sortent.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h4 class="fr"></h4>
+  </td>
+  <td class="en">
+    <h4 class="en">SCENE X.</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h5 class="fr"></h5>
+  </td>
+  <td class="en">
+    <h5 class="en">Another part of the Plain.</h5>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">
+    (Canidius traverse le théâtre d'un côté avec son armée
+    de terre, et Taurus, lieutenant de César, passe de l'autre
+    côté, dès qu'ils ont disparu on entend le bruit d'un
+    combat naval.)
+    </p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Canidius marching with his land army one way over the stage, and
+    Taurus, the Lieutenant of Caesar, with his Army, the other way. After
+    their going in, is heard the noise of a sea fight.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>&nbsp;</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Alarum. Enter Enobarbus.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS <span class="stage2"><i>rentre</i></span>.<br/>
+    &nbsp; &mdash; Tout est perdu! tout est perdu! Je
+    n'en puis voir davantage. L'<i>Antoniade</i>, le vaisseau amiral
+    de la flotte égyptienne tourne son gouvernail et fuit
+    avec les soixante autres vaisseaux. Ce spectacle a foudroyé
+    mes yeux.</p>
+    <!--
+    «La galère capitainesse de Cléopâtre s'appelait <i>Antoniade</i>,
+    en laquelle il advint une chose de sinistre présage; des arondelles
+    avaient fait leurs nids dessoubs la pouppe: il y en vint d'autres
+    puis après qui chassèrent ces premières, et démolirent leurs
+    nids.» PLUTARQUE.
+    -->
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Naught, naught, all naught! I can behold no longer.<br/>
+    &nbsp; Th’ Antoniad, the Egyptian admiral,<br/>
+    &nbsp; With all their sixty, fly and turn the rudder.<br/>
+    &nbsp; To see ’t mine eyes are blasted.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Entre Scarus.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Scarus.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SCARUS.<br/>
+    &nbsp; &mdash; Dieux et déesses, et tout ce qu'il y a de puissances
+    dans l'Olympe!</p>
+  </td>
+  <td class="en">
+    <p>
+    SCARUS.<br/>
+    &nbsp; Gods and goddesses,<br/>
+    &nbsp; All the whole synod of them!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Quel est ce transport?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; What’s thy passion?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SCARUS.<br/>
+    &nbsp; &mdash; La plus belle part de l'univers est perdue par
+    pure ignorance. Nous avons perdu royaumes et provinces
+    pour des baisers.</p>
+  </td>
+  <td class="en">
+    <p>
+    SCARUS.<br/>
+    &nbsp; The greater cantle of the world is lost<br/>
+    &nbsp; With very ignorance. We have kissed away<br/>
+    &nbsp; Kingdoms and provinces.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Où en est le combat?</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; How appears the fight?
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SCARUS.<br/>
+    &nbsp; &mdash; De notre côté, comme la peste lorsqu'on a vu
+    les boutons et que la mort est certaine. Cette infâme
+    prostituée d'Égypte, que la lèpre saisisse, au fort de l'action,
+    lorsque les avantages semblaient jumeaux, tous
+    deux semblables, et que nous semblions même être
+    l'aîné, je ne sais quel taon<!-- [26] --> la pique comme une génisse
+    au mois de juin, mais elle fait hausser les voiles et fuit.</p>
+    <!--
+    Note 26: Taon, mouche qui fait affoler les boeufs en été par la violence
+    de sa piqûre.
+    -->
+  </td>
+  <td class="en">
+    <p>
+    SCARUS.<br/>
+    &nbsp; On our side like, the tokened pestilence,<br/>
+    &nbsp; Where death is sure. Yon ribaudred nag of Egypt,<br/>
+    &nbsp; Whom leprosy o’ertake, i’ th’ midst o’ th’ fight,<br/>
+    &nbsp; When vantage like a pair of twins appeared,<br/>
+    &nbsp; Both as the same—or, rather, ours the elder—<br/>
+    &nbsp; The breeze upon her, like a cow in June,<br/>
+    &nbsp; Hoists sails and flies.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; J'en ai été témoin; mes yeux, rendus
+    malades par ce spectacle, n'ont pu en soutenir plus longtemps
+    la vue.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; That I beheld.<br/>
+    &nbsp; Mine eyes did sicken at the sight and could not<br/>
+    &nbsp; Endure a further view.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SCARUS.<br/>
+    &nbsp; &mdash; À peine a-t-elle cinglé, en s'enfuyant, qu'Antoine,
+    noble victime de ses enchantements, déploie les
+    ailes de son vaisseau, et, comme un insensé, abandonne
+    le combat au fort de la mêlée, et fuit sur ses traces. Je
+    n'ai jamais vu d'action si honteuse. Jamais l'expérience,
+    la bravoure et l'honneur ne se sont aussi indignement
+    trahis.</p>
+  </td>
+  <td class="en">
+    <p>
+    SCARUS.<br/>
+    &nbsp; She once being loofed,<br/>
+    &nbsp; The noble ruin of her magic, Antony,<br/>
+    &nbsp; Claps on his sea-wing and, like a doting mallard,<br/>
+    &nbsp; Leaving the fight in height, flies after her.<br/>
+    &nbsp; I never saw an action of such shame.<br/>
+    &nbsp; Experience, manhood, honour, ne’er before<br/>
+    &nbsp; Did violate so itself.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Hélas! hélas!</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Alack, alack!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS <span class="stage2"><i>arrive</i>.</span><br/>
+    &nbsp; &mdash; Notre fortune sur mer est aux abois
+    et s'abîme de la manière la plus lamentable. Si notre général
+    s'était souvenu de ce qu'il fut jadis, tout allait à
+    merveille. Oh! il nous a donné bien lâchement l'exemple
+    de la fuite!</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>Enter Canidius.</em>
+
+    CANIDIUS.<br/>
+    &nbsp; Our fortune on the sea is out of breath<br/>
+    &nbsp; And sinks most lamentably. Had our general<br/>
+    &nbsp; Been what he knew himself, it had gone well.<br/>
+    &nbsp; O, he has given example for our flight<br/>
+    &nbsp; Most grossly by his own!
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS, <span class="stage2"><i>à part</i>.</span><br/>
+    &nbsp; &mdash; Oui. Ah! en êtes vous là? En ce
+    cas, bonsoir; adieu.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; Ay, are you thereabouts?<br/>
+    &nbsp; Why, then, good night indeed.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Ils fuient vers le Péloponèse.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; Toward Peloponnesus are they fled.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>SCARUS.<br/>
+    &nbsp; &mdash; Cela est aisé; et j'irai aussi attendre là l'événement.</p>
+  </td>
+  <td class="en">
+    <p>
+    SCARUS.<br/>
+    &nbsp; ’Tis easy to’t, and there I will attend<br/>
+    &nbsp; What further comes.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>CANIDIUS.<br/>
+    &nbsp; &mdash; Je vais me rendre à César avec mes légions
+    et ma cavalerie; déjà six rois m'ont donné l'exemple de
+    la soumission.</p>
+  </td>
+  <td class="en">
+    <p>
+    CANIDIUS.<br/>
+    &nbsp; To Caesar will I render<br/>
+    &nbsp; My legions and my horse. Six kings already<br/>
+    &nbsp; Show me the way of yielding.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>ÉNOBARBUS.<br/>
+    &nbsp; &mdash; Je veux suivre encore la fortune chancelante
+    d'Antoine, quoique la prudence me conseille le contraire.</p>
+  </td>
+  <td class="en">
+    <p>
+    ENOBARBUS.<br/>
+    &nbsp; I’ll yet follow<br/>
+    &nbsp; The wounded chance of Antony, though my reason<br/>
+    &nbsp; Sits in the wind against me.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p class="stage1">(Ils sortent par différents côtés.)</p>
+  </td>
+  <td class="en">
+    <p>
+    &nbsp; &nbsp;
+    <em>[Exeunt.]</em>
+    </p>
   </td>
 </tr>
 
