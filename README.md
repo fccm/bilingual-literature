@@ -58,6 +58,12 @@ https://fccm.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.ht
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.html)
 
 
+## Strange Case of Dr Jekyll and Mr Hyde, by Robert Louis Stevenson
+
+[Read online](
+https://fccm.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde.contents.html)
+
+
 ## Pride and Prejudice, by Jane Austen
 
 [Read online](
