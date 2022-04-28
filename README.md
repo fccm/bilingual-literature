@@ -88,6 +88,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/Cinderella/Cinderel
 https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_in_Boots.html)
 
 
+## The Lady with the Camellias, by Alexandre Dumas son
+
+[Read online](
+https://fccm.github.io/bilingual-literature/A_Dumas_son/Camille/Camille.html)
+
+
 ## David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
