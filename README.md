@@ -94,6 +94,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_
 https://fccm.github.io/bilingual-literature/A_Dumas_son/Camille/Camille.html)
 
 
+## Dangerous Connections (Les Liaisons dangereuses), by Pierre Choderlos de Laclos
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Choderlos_de_Laclos/Dangerous_Connections/Dangerous_Connections.html)
+
+
 ## David Copperfield, by Charles Dickens
 
 From: [gutenberg.org/ebooks/766](
