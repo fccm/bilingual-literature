@@ -64,6 +64,12 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/Arsene_Lupin_Gentlem
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.html)
 
 
+## Treasure Island, by Robert Louis Stevenson
+
+[Read online](
+https://fccm.github.io/bilingual-literature/R_L_Stevenson/Treasure_Island/Treasure_Island.index.html)
+
+
 ## Strange Case of Dr Jekyll and Mr Hyde, by Robert Louis Stevenson
 
 [Read online](
