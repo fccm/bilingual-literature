@@ -52,6 +52,12 @@ https://fccm.github.io/bilingual-literature/A_Dumas/The_Three_Musketeers/The_Thr
 https://fccm.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.html)
 
 
+## The Extraordinary Adventures of Arsene Lupin, Gentleman Burglar, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/Arsene_Lupin_Gentleman_Burglar/Arsene_Lupin_Gentleman_Burglar.index.html)
+
+
 ## The Confessions of Arsene Lupin, by Maurice Leblanc
 
 [Read online](
