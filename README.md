@@ -82,6 +82,12 @@ https://fccm.github.io/bilingual-literature/R_L_Stevenson/Treasure_Island/Treasu
 https://fccm.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde.contents.html)
 
 
+## The Flowers of Evil, by Charles Baudelaire
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Baudelaire/The_Flowers_of_Evil/The_Flowers_of_Evil.html)
+
+
 ## Pride and Prejudice, by Jane Austen
 
 [Read online](
