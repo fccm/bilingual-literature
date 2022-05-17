@@ -112,6 +112,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/Cinderella/Cinderel
 https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_in_Boots.html)
 
 
+## The Sleeping Beauty, by Charles Perrault
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Charles_Perrault/The_Sleeping_Beauty/The_Sleeping_Beauty.html)
+
+
 ## The Lady with the Camellias, by Alexandre Dumas son
 
 [Read online](
