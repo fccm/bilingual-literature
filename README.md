@@ -9,11 +9,13 @@ Here are work in progress bilingual books made from public domain books availabl
 
 ## Alice’s Adventures in Wonderland, by Lewis Carroll
 
-[Read online](
-https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-en-00.html)
-
-[Get XML sources](
-https://github.com/fccm/bilingual-literature/tree/master/Lewis_Carroll/Alice_s_Adventures_in_Wonderland)
+Read online:
+[fr-en](
+https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-en-00.html) /
+[fr-de](
+https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-de-00.html) /
+[en-de](
+https://fccm.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-en-de-00.html)
 
 
 ## Antony and Cleopatra, by William Shakespeare
