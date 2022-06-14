@@ -120,6 +120,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_
 https://fccm.github.io/bilingual-literature/Charles_Perrault/The_Sleeping_Beauty/The_Sleeping_Beauty.html)
 
 
+## The Wolf and the Fox, by Jacob and Wilhelm Grimm
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Grimm/The_Wolf_and_the_Fox/The_Wolf_and_the_Fox.html)
+
+
 ## The Lady with the Camellias, by Alexandre Dumas son
 
 [Read online](
