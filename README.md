@@ -69,7 +69,7 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/Arsene_Lupin_Gentlem
 ## The Confessions of Arsene Lupin, by Maurice Leblanc
 
 [Read online](
-https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.html)
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.index.html)
 
 
 ## Treasure Island, by Robert Louis Stevenson
