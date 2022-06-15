@@ -42,10 +42,10 @@ https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_Wo
 https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
 
 
-## A Scandal in Bohemia, by Arthur Conan Doyle
+## The Adventures of Sherlock Holmes, by Arthur Conan Doyle
 
 [Read online](
-https://fccm.github.io/bilingual-literature/A_C_Doyle/A_Scandal_in_Bohemia/A_Scandal_in_Bohemia.html)
+https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Adventures_of_Sherlock_Holmes/The_Adventures_of_Sherlock_Holmes.html)
 
 
 ## The Three Musketeers, by Alexandre Dumas
