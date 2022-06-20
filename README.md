@@ -33,7 +33,7 @@ https://fccm.github.io/bilingual-literature/Shakespeare/Romeo_and_Juliet/Romeo_a
 ## The Lost World, by Arthur Conan Doyle
 
 [Read online](
-https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_World.html)
+https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_World-00.html)
 
 
 ## The Hound of the Baskervilles, by Arthur Conan Doyle
