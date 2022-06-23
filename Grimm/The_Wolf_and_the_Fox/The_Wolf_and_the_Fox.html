@@ -2,14 +2,14 @@
 <html>
 <head>
 <title>The Wolf and the Fox, by Jacob and Wilhelm Grimm</title>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
 
 <style type="text/css" media="screen">
 body {
   color:#BBC;
   background:#EEE;
-  padding:1em 1em 4em 2em;
+  padding:1em 1em 3em 2em;
   margin:0;
 }
 td {
@@ -23,26 +23,28 @@ h1 { font-size:1.3em; padding-left:0.2em; }
 h2 { font-size:1.1em; padding-left:0.1em; }
 h3 { font-size:0.9em; padding-left:1.8em; }
 
-td.fr p, td.fr h1, td.fr h2, td.fr h3 { margin:0.4em 0.8em 0.4em 1.2em; color:#024; }
-td.en p, td.en h1, td.en h2, td.en h3 { margin:0.4em 1.2em 0.4em 0.8em; color:#420; }
+td.en p, td.en h1, td.en h2, td.en h3 { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+td.fr p, td.fr h1, td.fr h2, td.fr h3 { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 
-td.fr p a { color:#024; }
 td.en p a { color:#420; }
+td.fr p a { color:#024; }
 
-td p a:hover { background:#FFF; }
+td.en p a:hover { background:#FFF; }
+td.fr p a:hover { background:#FFF; }
 
-h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 h4.en, h5.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 
-h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
 h6.en { margin:0.4em 1.8em 0.4em 4.2em; color:#420; }
+h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
 
 table {
   width:1010px;
 }
-td { vertical-align:top; }
-td.fr { width:53%; }
-td.en { width:47%; }
+td {
+  width:50%;
+  vertical-align:top;
+}
 </style>
 
 <style type="text/css" media="print">
@@ -54,10 +56,10 @@ td {
   padding:0;
   margin:1px;
 }
-td { vertical-align:top; }
-td.fr { width:53%; }
-td.en { width:47%; }
-
+td {
+  width:50%;
+  vertical-align: top;
+}
 td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
 td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
 td p { font-size:0.8em; text-indent:0.8em; }
@@ -76,14 +78,45 @@ td p { font-size:0.8em; text-indent:0.8em; }
 
 <tr>
   <td class="fr">
-<h2>Le Loup et le Renard</h2>
-<h3>de Jacob Grimm et Wilhelm Grimm</h3>
+    <h2 class="fr">Contes choisis de la famille</h2>
   </td>
   <td class="en">
-<h2>The Wolf and the Fox</h2>
-<h3>by Jacob Grimm and Wilhelm Grimm</h3>
+    <h2 class="en">Grimm's Household Tales</h2>
   </td>
 </tr>
+
+<tr>
+  <td class="fr">
+    <h1 class="fr">Le Loup et le Renard</h1>
+  </td>
+  <td class="en">
+    <h1 class="en">The Wolf and the Fox</h1>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h3 class="fr">de Jacob et Wilhelm Grimm</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">by Jacob and Wilhelm Grimm</h3>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h6 class="fr">1885</h6>
+  </td>
+  <td class="en">
+    <h6 class="en">Translated by Margaret Raine Hunt</h6>
+  </td>
+</tr>
+
+</table>
+
+&nbsp;<br/>
+
+<table>
 
 <tr>
   <td class="fr">
@@ -492,8 +525,6 @@ cudgel and struck him dead, but the fox bounded into the forest, glad to be rid
 of the old glutton.</p>
   </td>
 </tr>
-
 </table>
-
 </body>
 </html>
