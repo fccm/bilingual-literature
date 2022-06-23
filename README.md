@@ -140,11 +140,8 @@ https://fccm.github.io/bilingual-literature/Choderlos_de_Laclos/Dangerous_Connec
 
 ## David Copperfield, by Charles Dickens
 
-From: [gutenberg.org/ebooks/766](
-http://www.gutenberg.org/ebooks/766)
-
 [Read online](
-https://fccm.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-dual-en-fr-TOC.html)
+https://fccm.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-en-fr-TOC.html)
 
 [Get XML sources](
 https://github.com/fccm/bilingual-literature/tree/master/Charles_Dickens/David_Copperfield)
