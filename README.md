@@ -120,6 +120,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/Puss_in_Boots/Puss_
 https://fccm.github.io/bilingual-literature/Charles_Perrault/The_Sleeping_Beauty/The_Sleeping_Beauty.html)
 
 
+## Little Snow-White, by Jacob and Wilhelm Grimm
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Grimm/Little_Snow_White/Little_Snow_White.html)
+
+
 ## The Wolf and the Fox, by Jacob and Wilhelm Grimm
 
 [Read online](
