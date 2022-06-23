@@ -126,6 +126,12 @@ https://fccm.github.io/bilingual-literature/Charles_Perrault/The_Sleeping_Beauty
 https://fccm.github.io/bilingual-literature/Grimm/The_Wolf_and_the_Fox/The_Wolf_and_the_Fox.html)
 
 
+## The Fox and the Cat, by Jacob and Wilhelm Grimm
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Grimm/The_Fox_and_the_Cat/The_Fox_and_the_Cat.html)
+
+
 ## The Lady with the Camellias, by Alexandre Dumas son
 
 [Read online](
