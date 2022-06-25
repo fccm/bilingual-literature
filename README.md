@@ -84,6 +84,12 @@ https://fccm.github.io/bilingual-literature/R_L_Stevenson/Treasure_Island/Treasu
 https://fccm.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde.contents.html)
 
 
+## 20,000 Leagues Under the Seas, by Jules Verne
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Jules_Verne/20_000_Leagues_Under_the_Seas/20_000_Leagues_Under_the_Seas.html)
+
+
 ## The Flowers of Evil, by Charles Baudelaire
 
 [Read online](
