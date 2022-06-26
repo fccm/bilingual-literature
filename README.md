@@ -48,6 +48,12 @@ https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervil
 https://fccm.github.io/bilingual-literature/A_C_Doyle/The_Adventures_of_Sherlock_Holmes/The_Adventures_of_Sherlock_Holmes.html)
 
 
+## A Study in Scarlet, by Arthur Conan Doyle
+
+[Read online](
+https://fccm.github.io/bilingual-literature/A_C_Doyle/A_Study_in_Scarlet/A_Study_in_Scarlet.html)
+
+
 ## The Three Musketeers, by Alexandre Dumas
 
 [Read online](
