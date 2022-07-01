@@ -21,11 +21,24 @@ p { padding:0; }
 p.en, h1.en, h2.en, h3.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
 p.fr, h1.fr, h2.fr, h3.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 table {
-  width: 80%;
+  width:80%;
 }
 td {
-  width: 50%;
-  vertical-align: top;
+  width:50%;
+  vertical-align:top;
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; }
+  body {
+    padding:1em 1px 3em 2px;
+    margin:0;
+  }
+  td p.en { margin:2px; }
+  td p.fr { margin:2px; }
+  p { padding-bottom:0.8em; }
+  h1.en, h2.en, h3.en { margin:3px; }
+  h1.fr, h2.fr, h3.fr { margin:3px; }
 }
 </style>
 
@@ -40,6 +53,8 @@ td {
 }
 table { width:98%; }
 td { width:50%; vertical-align:top; }
+td p.en { margin:0.2em 0.6em 0.2em 0.4em; }
+td p.fr { margin:0.2em 0.4em 0.2em 0.6em; }
 td p { font-size:0.8em; text-indent:0.8em; padding:0.3em; }
 </style>
 
