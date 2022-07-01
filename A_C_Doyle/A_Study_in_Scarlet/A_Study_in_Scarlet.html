@@ -40,8 +40,6 @@ td.fr a:hover { background:#FFF; }
 
 table {
   width:82%;
-  min-width:800px;
-  max-width:1100px;
   margin-bottom:3em;
 }
 td {
@@ -49,6 +47,12 @@ td {
   vertical-align:top;
 }
 
+@media (min-width: 800px) {
+  table {
+    min-width:800px;
+    max-width:1100px;
+  }
+}
 @media (max-width: 640px) {
   table { width:100%; margin:0; }
   body {
