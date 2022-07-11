@@ -37,11 +37,28 @@ h6.en { margin:0.4em 1.8em 0.4em 4.2em; color:#420; }
 h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
 
 table {
-  width: 54%;
+  width:58%;
 }
 td {
-  width: 50%;
-  vertical-align: top;
+  width:50%;
+  vertical-align:top;
+}
+
+@media (min-width: 641px) {
+  table {
+    min-width:700px;
+    max-width:1100px;
+  }
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  td.en p { margin:1px 2px; }
+  td.fr p { margin:1px 2px; }
 }
 </style>
 </head>
@@ -99,8 +116,8 @@ td {
     <p><a href='./Pride_and_Prejudice-06.html'>Chapitre 6</a></p>
     <p><a href='./Pride_and_Prejudice-07.html'>Chapitre 7</a></p>
     <p><a href='./Pride_and_Prejudice-08.html'>Chapitre 8</a></p>
-    <!--
     <p><a href='./Pride_and_Prejudice-09.html'>Chapitre 9</a></p>
+    <!--
     <p><a href='./Pride_and_Prejudice-10.html'>Chapitre 10</a></p>
     <p><a href='./Pride_and_Prejudice-11.html'>Chapitre 11</a></p>
     <p><a href='./Pride_and_Prejudice-12.html'>Chapitre 12</a></p>
@@ -164,8 +181,8 @@ td {
     <p><a href='./Pride_and_Prejudice-06.html'>Chapter 6</a></p>
     <p><a href='./Pride_and_Prejudice-07.html'>Chapter 7</a></p>
     <p><a href='./Pride_and_Prejudice-08.html'>Chapter 8</a></p>
-    <!--
     <p><a href='./Pride_and_Prejudice-09.html'>Chapter 9</a></p>
+    <!--
     <p><a href='./Pride_and_Prejudice-10.html'>Chapter 10</a></p>
     <p><a href='./Pride_and_Prejudice-11.html'>Chapter 11</a></p>
     <p><a href='./Pride_and_Prejudice-12.html'>Chapter 12</a></p>

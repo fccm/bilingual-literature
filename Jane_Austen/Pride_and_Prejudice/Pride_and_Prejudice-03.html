@@ -38,11 +38,28 @@ h6.en { margin:0.4em 1.8em 0.4em 4.2em; color:#420; }
 h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
 
 table {
-  width: 82%;
+  width:82%;
 }
 td {
-  width: 50%;
-  vertical-align: top;
+  width:50%;
+  vertical-align:top;
+}
+
+@media (min-width: 641px) {
+  table {
+    min-width:700px;
+    max-width:1100px;
+  }
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  td.en p { margin:1px 2px; }
+  td.fr p { margin:1px 2px; }
 }
 </style>
 
