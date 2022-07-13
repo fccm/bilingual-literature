@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>Frankenstein, by Mary Shelley</title>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
 
 <style type="text/css" media="screen">
 body {
@@ -31,11 +31,21 @@ p.en a:hover { background:#FFF; }
 p.fr a:hover { background:#FFF; }
 
 table {
-  width: 80%;
+  width:80%;
 }
 td {
-  width: 50%;
-  vertical-align: top;
+  width:50%;
+  vertical-align:top;
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  p.en, h1.en, h2.en, h3.en { margin:0.4em 0.2em 0.4em 0.2em; }
+  p.fr, h1.fr, h2.fr, h3.fr { margin:0.4em 0.2em 0.4em 0.2em; }
 }
 </style>
 
