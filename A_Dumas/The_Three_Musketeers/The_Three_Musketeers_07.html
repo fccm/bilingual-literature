@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>The Three Musketeers, by Alexandre Dumas</title>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
 
 <style type="text/css" media="screen"> 
 body {
@@ -27,11 +27,11 @@ h4 { font-size:0.9em; padding-left:2.0em; }
 td.en p, h1.en, h2.en, h3.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
 td.fr p, h1.fr, h2.fr, h3.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
 
-td.en p a { color:#420; }
-td.fr p a { color:#024; }
+td.en a { color:#420; }
+td.fr a { color:#024; }
 
-td.en p a:hover { background:#FFF; }
-td.fr p a:hover { background:#FFF; }
+td.en a:hover { background:#FFF; }
+td.fr a:hover { background:#FFF; }
 
 h4.en, h5.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
 h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
@@ -46,6 +46,7 @@ td {
   width:50%;
   vertical-align:top;
 }
+
 @media (max-width: 640px) {
   table { width:100%; margin:0; }
   body {
@@ -63,6 +64,14 @@ td {
   h6.fr, h6.en { padding-left:0.3em; }
   p { padding-bottom:0.8em; }
 }
+
+div.prev a:link { text-decoration:none; }
+div.next a:link { text-decoration:none; }
+
+div.prev { margin-left:1.8em; }
+div.next { margin-right:1.8em; text-align:right; }
+
+div.prev a, div.next a { font-size:1.4em; }
 </style>
 
 <style type="text/css" media="print">
@@ -81,6 +90,7 @@ td {
 td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
 td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
 td p { font-size:0.8em; text-indent:0.8em; }
+div.prev a, div.next a { display:none; }
 </style>
 
 </head>
@@ -1015,9 +1025,16 @@ td p { font-size:0.8em; text-indent:0.8em; }
   </td>
 </tr>
 
-</table>
+<tr>
+  <td class="fr">
+    <div class="prev"><a href="The_Three_Musketeers_06.html">←</a></div>
+  </td>
+  <td class="en">
+    <div class="next"><a href="The_Three_Musketeers_08.html">→</a></div>
+  </td>
+</tr>
 
-&nbsp;<br/>
+</table>
 
 </body>
 </html>
