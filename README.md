@@ -96,6 +96,12 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Three_Eyes/The_T
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Blonde_Lady/The_Blonde_Lady-00.html)
 
 
+## The Secret of Sarek, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Secret_of_Sarek/The_Secret_of_Sarek-00.html)
+
+
 ## Treasure Island, by Robert Louis Stevenson
 
 [Read online](
