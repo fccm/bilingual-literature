@@ -78,6 +78,12 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/Arsene_Lupin_Gentlem
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_Arsene_Lupin/The_Confessions_of_Arsene_Lupin.index.html)
 
 
+## The Teeth of the Tiger, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Teeth_of_the_Tiger/The_Teeth_of_the_Tiger-00.html)
+
+
 ## Treasure Island, by Robert Louis Stevenson
 
 [Read online](
