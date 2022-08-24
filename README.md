@@ -84,6 +84,18 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Confessions_of_A
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Teeth_of_the_Tiger/The_Teeth_of_the_Tiger-00.html)
 
 
+## The Three Eyes, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Three_Eyes/The_Three_Eyes-00.html)
+
+
+## The Blonde Lady, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Blonde_Lady/The_Blonde_Lady-00.html)
+
+
 ## Treasure Island, by Robert Louis Stevenson
 
 [Read online](
