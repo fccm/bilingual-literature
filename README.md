@@ -189,7 +189,7 @@ https://fccm.github.io/bilingual-literature/A_Dumas_son/Camille/Camille.html)
 ## The Impostures of Scapin, by Molière
 
 [Read online](
-https://fccm.github.io/bilingual-literature/The_Impostures_of_Scapin/The_Impostures_of_Scapin.html)
+https://fccm.github.io/bilingual-literature/Moliere/The_Impostures_of_Scapin/The_Impostures_of_Scapin.html)
 
 
 ## Dangerous Connections (Les Liaisons dangereuses), by Pierre Choderlos de Laclos
