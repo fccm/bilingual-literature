@@ -66,6 +66,12 @@ https://fccm.github.io/bilingual-literature/A_Dumas/The_Three_Musketeers/The_Thr
 https://fccm.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.html)
 
 
+## The Jungle Book, by Rudyard Kipling
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Rudyard_Kipling/The_Jungle_Book/The_Jungle_Book-00.html)
+
+
 ## The Extraordinary Adventures of Arsene Lupin, Gentleman Burglar, by Maurice Leblanc
 
 [Read online](
