@@ -108,6 +108,12 @@ https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Blonde_Lady/The_
 https://fccm.github.io/bilingual-literature/Maurice_Leblanc/The_Secret_of_Sarek/The_Secret_of_Sarek-00.html)
 
 
+## 813, by Maurice Leblanc
+
+[Read online](
+https://fccm.github.io/bilingual-literature/Maurice_Leblanc/813/813-00.html)
+
+
 ## Treasure Island, by Robert Louis Stevenson
 
 [Read online](
