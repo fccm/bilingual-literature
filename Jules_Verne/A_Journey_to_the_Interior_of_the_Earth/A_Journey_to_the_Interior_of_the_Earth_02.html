@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Journey into the Interior of the Earth, by Jules Verne</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+
+<style type="text/css" media="screen">
+body {
+  color:#BBC;
+  background:#EEE;
+  padding:1em 1em 3em 2em;
+  margin:0;
+}
+td {
+  border:1px solid #ABC;
+  padding:0;
+  margin:1px;
+}
+p { padding:0; text-indent:1.2em; }
+
+h1 { font-size:1.3em; padding-left:0.1em; }
+h2 { font-size:1.1em; padding-left:1.0em; }
+h3 { font-size:0.8em; padding-left:2.4em; }
+
+h4 { font-size:0.9em; padding:0.6em 0.2em 0.4em 1.2em; margin:0; }
+h5 { font-size:1.0em; padding:0.4em 0.2em 0.6em 1.8em; margin:0; }
+
+td.en p, td.en h1, td.en h2, td.en h3 { margin:0.4em 1.6em 0.4em 0.8em; color:#420; }
+td.fr p, td.fr h1, td.fr h2, td.fr h3 { margin:0.4em 0.8em 0.4em 1.6em; color:#024; }
+
+td.en, td.en a { color:#420; }
+td.fr, td.fr a { color:#024; }
+
+td.en a:hover { background:#FFF; }
+td.fr a:hover { background:#FFF; }
+
+h4.en, h5.en { margin:0.4em 1.6em 0.4em 0.8em; color:#420; }
+h4.fr, h5.fr { margin:0.4em 0.8em 0.4em 1.6em; color:#024; }
+
+h6.en { margin:0.4em 1.8em 0.4em 3.2em; color:#420; }
+h6.fr { margin:0.4em 0.6em 0.4em 4.2em; color:#024; }
+
+td {
+  width:50%;
+  vertical-align:top;
+}
+
+@media (min-width: 641px) {
+  table {
+    width:82%;
+    max-width:1010px;
+    min-width:640px;
+    margin-bottom:3em;
+  }
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; margin-bottom:1em; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  td.en p { margin:0; }
+  td.fr p { margin:0; }
+}
+
+div.prev a:link { text-decoration:none; }
+div.next a:link { text-decoration:none; }
+
+div.prev { margin-left:1.8em; }
+div.next { margin-right:1.8em; text-align:right; }
+
+div.prev a, div.next a { font-size:1.4em; }
+</style>
+
+<style type="text/css" media="print">
+body { background:#FFF; color:#000; }
+a { text-decoration:none; color:#000; }
+h1, h2, h3, h4, h5, h6 { color:#000; }
+td {
+  border:1px solid #000;
+  padding:0;
+  margin:1px;
+}
+td {
+  width:50%;
+  vertical-align: top;
+}
+td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
+td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
+td p { font-size:0.8em; text-indent:0.8em; }
+div.prev a, div.next a { display:none; }
+</style>
+
+<style type="text/css">
+.cryptogramme {
+  content:url("data:image/png;base64,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");
+}
+</style>
+
+</head>
+<body>
+
+<!--
+  From:
+    https://fr.wikisource.org/wiki/Voyage_au_centre_de_la_Terre
+    https://en.wikisource.org/wiki/Journey_into_the_Interior_of_the_Earth
+-->
+
+<table>
+
+<tr id="title">
+  <td class="fr">
+    <h1 class="fr">Voyage au centre de la Terre</h1>
+  </td>
+  <td class="en">
+    <h1 class="en">Journey into the Interior of the Earth</h1>
+  </td>
+</tr>
+
+<tr id="author">
+  <td class="fr">
+    <h2 class="fr">par Jules Verne</h2>
+  </td>
+  <td class="en">
+    <h2 class="en">by Jules Verne</h2>
+  </td>
+</tr>
+
+<tr id="translator">
+  <td class="fr">
+    <h3 class="fr">1867</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">Translated by Frederick Amadeus Malleson, 1877</h3>
+  </td>
+</tr>
+
+</table>
+
+
+<table>
+
+<tr id="c2">
+  <td class="fr" id="Chapitre_2">
+    <h3 class="fr">Chapitre II.</h3>
+    <h4 class="fr"></h4>
+  </td>
+  <td class="en" id="Chapter_2">
+    <h3 class="en">Chapter II:</h3>
+    <h4 class="en">A mystery to be solved at any price</h4>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Ce cabinet était un véritable musée. Tous les échantillons du règne
+minéral s’y trouvaient étiquetés avec l’ordre le plus parfait, suivant
+les trois grandes divisions des minéraux inflammables, métalliques et
+lithoïdes.</p>
+  </td>
+  <td class="en">
+<p>That study of his was a museum, and nothing else. Specimens of everything
+known in mineralogy lay there in their places in perfect order, and correctly
+named, divided into inflammable, metallic, and lithoid minerals.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Comme je les connaissais, ces bibelots de la science minéralogique&#160;!
+Que de fois, au lieu de muser avec les garçons de mon âge, je m’étais plu
+à épousseter
+ ces graphites, ces anthracites, ces houilles, ces lignites, ces tourbes&#160;!
+Et les bitumes, les résines, les sels organiques qu’il fallait préserver du
+moindre atome de poussière&#160;! Et ces métaux, depuis le fer jusqu’à
+l’or, dont la valeur relative disparaissait devant l’égalité absolue des
+spécimens scientifiques&#160;! Et toutes ces pierres qui eussent suffi à
+reconstruire la maison de Königstrasse, même avec une belle chambre de plus,
+dont je me serais si bien arrangé&#160;!</p>
+  </td>
+  <td class="en">
+<p>How well I knew all these bits of science! Many a time, instead of enjoying
+the company of lads of my own age, I had preferred dusting these graphites,
+anthracites, coals, lignites, and peats! And there were bitumens, resins,
+organic salts, to be protected from the least grain of dust; and metals, from
+iron to gold, metals whose current value altogether disappeared in the presence
+of the republican equality of scientific specimens; and stones too, enough to
+rebuild entirely the house in Königstrasse, even with a handsome additional
+room, which would have suited me admirably.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Mais, en entrant dans le cabinet, je ne songeais guère à ces merveilles.
+Mon oncle seul occupait ma pensée. Il était enfoui dans son large fauteuil
+garni de velours d’Utrecht, et tenait entre les mains un livre qu’il
+considérait avec la plus profonde admiration.</p>
+  </td>
+  <td class="en">
+<p>But on entering this study now I thought of none of all these wonders; my
+uncle alone filled my thoughts. He had thrown himself into a velvet easy-chair,
+and was grasping between his hands a book over which he bent, pondering with
+intense admiration.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Quel livre&#160;! quel livre&#160;!&#160;» s’écriait-il.</p>
+  </td>
+  <td class="en">
+<p>"Here's a remarkable book! What a wonderful book!" he was exclaiming.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Cette exclamation me rappela que le professeur Lidenbrock était aussi
+bibliomane à ses moments perdus&#160;; mais un bouquin n’avait de prix à
+ses yeux qu’à la condition d’être introuvable, ou tout au moins
+illisible.</p>
+  </td>
+  <td class="en">
+<p>These ejaculations brought to my mind the fact that my uncle was liable to
+occasional fits of bibliomania; but no old book had any value in his eyes
+unless it had the virtue of being nowhere else to be found, or, at any rate, of
+being illegible.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Eh bien&#160;! me dit-il, tu ne vois donc pas&#160;? Mais c’est un
+trésor inestimable que j’ai rencontré ce matin en furetant dans la boutique
+du juif Hevelius.</p>
+  </td>
+  <td class="en">
+<p>"Well, now; don't you see it yet? Why I have got a priceless treasure, that I
+found his morning, in rummaging in old Hevelius's shop, the Jew."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Magnifique&#160;!&#160;» répondis-je avec un enthousiasme de
+commande.</p>
+  </td>
+  <td class="en">
+<p>"Magnificent!" I replied, with a good imitation of enthusiasm.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>En effet, à quoi bon ce fracas pour un vieil in-quarto dont le dos et les
+plats semblaient faits d’un veau grossier, un bouquin jaunâtre auquel
+pendait un signet décoloré&#160;?</p>
+  </td>
+  <td class="en">
+<p>What was the good of all this fuss about an old quarto, bound in rough calf,
+a yellow, faded volume, with a ragged seal depending from it?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Cependant les interjections admiratives du professeur ne discontinuaient
+pas.</p>
+  </td>
+  <td class="en">
+<p>But for all that there was no lull yet in the admiring exclamations of the
+Professor.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Vois, disait-il, en se faisant à lui-même demandes et
+réponses&#160;; est-ce assez beau&#160;? Oui, c’est admirable&#160;! Et
+quelle reliure&#160;! Ce livre s’ouvre-t-il facilement&#160;? Oui, car il
+reste ouvert à n’importe quelle page&#160;! Mais se ferme-t-il bien&#160;?
+Oui, car la couverture et les feuilles forment un tout bien uni, sans se
+séparer ni bâiller en aucun endroit&#160;! Et ce dos qui n’offre pas une
+seule brisure après sept cents ans d’existence&#160;! Ah&#160;! voilà une
+reliure dont Bozerian, Closs ou Purgold eussent été fiers&#160;!&#160;»</p>
+  </td>
+  <td class="en">
+<p>"See," he went on, both asking the questions and supplying the answers.
+"Isn't it a beauty? Yes; splendid! Did you ever see such a binding? Doesn't the
+book open easily? Yes; it stops open anywhere. But does it shut equally well?
+Yes; for the binding and the leaves are flush, all in a straight line, and no
+gaps or openings anywhere. And look at its back, after seven hundred years.
+Why, Bozerian, Closs, or Purgold might have been proud of such a binding!"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>En parlant ainsi, mon oncle ouvrait et fermait successivement le vieux
+bouquin. Je ne pouvais faire moins que de l’interroger sur son contenu, bien
+que cela ne m’intéressât aucunement.</p>
+  </td>
+  <td class="en">
+<p>While rapidly making these comments my uncle kept opening and shutting the
+old tome. I really could do no less than ask a question about its contents,
+although I did not feel the slightest interest.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Et quel est donc le titre de ce merveilleux volume&#160;? demandai-je
+avec un empressement trop enthousiaste pour n’être pas feint.</p>
+  </td>
+  <td class="en">
+<p>"And what is the title of this marvellous work?" I asked with an affected
+eagerness which he must have been very blind not to see through.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Cet ouvrage&#160;! répondit mon oncle en s’animant, c’est
+l’<i>Heims-Kringla</i> de Snorre Turleson, le fameux auteur islandais du
+douzième siècle&#160;! C’est la Chronique des princes norvégiens qui
+régnèrent en Islande&#160;!</p>
+  </td>
+  <td class="en">
+<p>"This work," replied my uncle, firing up with renewed enthusiasm, "this work
+is the Heims Kringla of Snorre Turlleson, the most famous Icelandic author of
+the twelfth century! It is the chronicle of the Norwegian princes who ruled in
+Iceland."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Vraiment&#160;! m’écriai-je de mon mieux, et sans doute c’est une
+traduction en langue allemande&#160;?</p>
+  </td>
+  <td class="en">
+<p>"Indeed;" I cried, keeping up wonderfully, "of course it is a German
+translation?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Bon&#160;! riposta vivement le professeur, une traduction&#160;! Et
+qu’en ferais-je de ta traduction&#160;? Qui se soucie de ta traduction&#160;?
+ Ceci est l’ouvrage original en langue islandaise, ce magnifique idiome,
+riche et simple à la fois, qui autorise les combinaisons grammaticales les
+plus variées et de nombreuses modifications de mots&#160;!</p>
+  </td>
+  <td class="en">
+<p>"What!" sharply replied the Professor, "a translation! What should I do with
+a translation? This <i>is</i> the Icelandic original, in the magnificent
+idiomatic vernacular, which is both rich and simple, and admits of an infinite
+variety of grammatical combinations and verbal modifications."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Comme l’allemand, insinuai-je avec assez de bonheur.</p>
+  </td>
+  <td class="en">
+<p>"Like German." I happily ventured.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Oui, répondit mon oncle en haussant les épaules, sans compter que la
+langue islandaise admet les trois genres comme le grec et décline les noms
+propres comme le latin&#160;!</p>
+  </td>
+  <td class="en">
+<p>"Yes." replied my uncle, shrugging his shoulders; "but, in addition to all
+this, the Icelandic has three numbers like the Greek, and irregular declensions
+of nouns proper like the Latin."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Ah&#160;! fis-je un peu ébranlé dans mon indifférence, et les
+caractères de ce livre sont-ils beaux&#160;?</p>
+  </td>
+  <td class="en">
+<p>"Ah!" said I, a little moved out of my indifference; "and is the type
+good?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Des caractères&#160;! Qui te parle de caractères, malheureux
+Axel&#160;?  Il s’agit bien de caractères&#160;! Ah&#160;! tu prends cela
+pour un imprimé&#160;? Mais, ignorant, c’est un manuscrit, et un manuscrit
+runique&#160;!…</p>
+  </td>
+  <td class="en">
+<p>"Type! What do you mean by talking of type, wretched Axel? Type! Do you take
+it for a printed book, you ignorant fool? It is a manuscript, a Runic
+manuscript."</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Runique&#160;?</p>
+  </td>
+  <td class="en">
+<p>"Runic?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Oui&#160;! Vas-tu me demander maintenant de t’expliquer ce
+mot&#160;?</p>
+  </td>
+  <td class="en">
+<p>"Yes. Do you want me to explain what that is?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Je m’en garderai bien,&#160;» répliquai-je avec l’accent d’un
+homme blessé dans son amour-propre.</p>
+  </td>
+  <td class="en">
+<p>"Of course not," I replied in the tone of an injured man. But my uncle
+persevered, and told me, against my will, of many things I cared nothing
+about.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Mais mon oncle continua de plus belle et m’instruisit, malgré moi, de
+choses que je ne tenais guère à savoir.</p>
+  </td>
+  <td class="en">
+<p>"Runic characters were in use in Iceland in former ages. They were invented,
+it is said, by Odin himself. Look there, and wonder, impious young man, and
+admire these letters, the invention of the Scandinavian god!"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Les runes, reprit-il, étaient des caractères d’écriture usités
+autrefois en Islande, et, suivant la tradition, ils furent inventés par Odin
+lui-même&#160;! Mais regarde donc, admire donc,  impie, ces types qui sont
+sortis de l’imagination d’un dieu&#160;!&#160;»</p>
+  </td>
+  <td class="en">
+<p>Well, well! not knowing what to say, I was going to prostrate myself before
+this wonderful book, a way of answering equally pleasing to gods and kings, and
+which has the advantage of never giving them any embarrassment, when a little
+incident happened to divert conversation into another channel.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Ma foi, faute de réplique, j’allais me prosterner, genre de réponse qui
+doit plaire aux dieux comme aux rois, car elle a l’avantage de ne jamais les
+embarrasser, quand un incident vint détourner le cours de la conversation.</p>
+  </td>
+  <td class="en">
+<p>This was the appearance of a dirty slip of parchment, which slipped out of
+the volume and fell upon the floor.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Ce fut l’apparition d’un parchemin crasseux qui glissa du bouquin et
+tomba à terre. Mon oncle se précipita sur ce brimborion avec une avidité
+facile à comprendre. Un vieux document, enfermé peut-être depuis un temps
+immémorial dans un vieux livre, ne pouvait manquer d’avoir un haut prix à
+ses yeux.</p>
+  </td>
+  <td class="en">
+<p>My uncle pounced upon this shred with incredible avidity. An old document,
+enclosed an immemorial time within the folds of this old book, had for him an
+immeasurable value.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Qu’est-ce que cela&#160;?&#160;» s’écria-t-il.</p>
+  </td>
+  <td class="en">
+<p>"What's this?" he cried.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Et, en même temps, il déployait soigneusement sur sa table un morceau de
+parchemin long de cinq pouces, large de trois, et sur lequel s’allongeaient,
+en lignes transversales, des caractères de grimoire.</p>
+  </td>
+  <td class="en">
+<p>And he laid out upon the table a piece of parchment, five inches by three,
+and along which were traced certain mysterious characters.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>En voici le fac-similé exact. Je tiens à faire connaître ces signes
+bizarres, car ils amenèrent le professeur Lidenbrock et son neveu à
+entreprendre la plus étrange expédition du dix-neuvième siècle&#160;:</p>
+  </td>
+  <td class="en">
+<p>Here is the exact facsimile. I think it important to let these strange signs
+be publicly known, for they were the means of drawing on Professor Liedenbrock
+and his nephew to undertake the most wonderful expedition of the nineteenth
+century.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<div style="text-align:center;">
+<img class="cryptogramme" alt="Cryptogramme" width="76%" />
+</div>
+  </td>
+  <td class="en">
+<div style="text-align:center;">
+<img class="cryptogramme" alt="Cryptogramme" width="76%" />
+</div>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Le professeur considéra pendant quelques instants cette série de
+caractères&#160;; puis il dit en relevant ses lunettes&#160;:</p>
+  </td>
+  <td class="en">
+<p>The Professor mused a few moments over this series of characters; then
+raising his spectacles he pronounced:</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;C’est du runique&#160;; ces types sont absolument identiques à
+ceux du manuscrit de Snorre Turleson&#160;! Mais… qu’est-ce que cela peut
+signifier&#160;?&#160;»</p>
+  </td>
+  <td class="en">
+<p>"These are Runic letters; they are exactly like those of the manuscript of
+Snorre Turlleson. But, what on earth is their meaning?"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Comme le runique me paraissait être une invention de savants pour mystifier
+le pauvre monde, je ne fus pas fâché de voir que mon oncle n’y comprenait
+rien. Du moins cela me sembla ainsi au mouvement de ses doigts qui
+commençaient à s’agiter terriblement.</p>
+  </td>
+  <td class="en">
+<p>Runic letters appearing to my mind to be an invention of the learned to
+mystify this poor world, I was not sorry to see my uncle suffering the pangs of
+mystification. At least, so it seemed to me, judging from his fingers, which
+were beginning to work with terrible energy.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;C’est pourtant du vieil islandais&#160;!&#160;» murmurait-il entre
+ses dents.</p>
+  </td>
+  <td class="en">
+<p>"It is certainly old Icelandic," he muttered between his teeth.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Et le professeur Lidenbrock devait bien s’y connaître, car il passait pour
+être un véritable polyglotte. Non pas qu’il parlât couramment les deux
+mille langues et les quatre mille idiomes employés à la surface du globe,
+mais enfin il en savait sa bonne part.</p>
+  </td>
+  <td class="en">
+<p>And Professor Liedenbrock must have known, for he was acknowledged to be
+quite a polyglot. Not that he could speak fluently in the two thousand
+languages and twelve thousand dialects which are spoken on the earth, but he
+knew at least his share of them.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Il allait donc, en présence de cette difficulté, se livrer à toute
+l’impétuosité de son caractère, et je prévoyais une scène violente,
+quand deux heures sonnèrent au petit cartel de la cheminée.</p>
+  </td>
+  <td class="en">
+<p>So he was going, in the presence of this difficulty, to give way to all the
+impetuosity of his character, and I was preparing for a violent outbreak, when
+two o'clock struck by the little timepiece over the fireplace.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Aussitôt, la bonne Marthe ouvrit la porte du cabinet en disant&#160;:</p>
+  </td>
+  <td class="en">
+<p>At that moment our good housekeeper Martha opened the study door, saying:</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;La soupe est servie.</p>
+  </td>
+  <td class="en">
+<p>"Dinner is ready!"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Au diable la soupe, s’écria mon oncle, et celle qui l’a faite, et
+ceux qui la mangeront&#160;!&#160;»</p>
+<p>Marthe s’enfuit. Je volai sur ses pas, et, sans savoir comment,  je me
+trouvai assis à ma place habituelle dans la salle à manger.</p>
+  </td>
+  <td class="en">
+<p>I am afraid he sent that soup to where it would boil away to nothing, and
+Martha took to her heels for safety. I followed her, and hardly knowing how I
+got there I found myself seated in my usual place.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>J’attendis quelques instants. Le professeur ne vint pas. C’était la
+première fois, à ma connaissance, qu’il manquait à la solennité du
+dîner. Et quel dîner, cependant&#160;! Une soupe au persil, une omelette au
+jambon relevée d’oseille à la muscade, une longe de veau à la compote de
+prunes, et, pour dessert, des crevettes au sucre, le tout arrosé d’un joli
+vin de la Moselle.
+  </td>
+  <td class="en">
+<p>I waited a few minutes. No Professor came. Never within my remembrance had he
+missed the important ceremonial of dinner. And yet what a good dinner it was!
+There was parsley soup, an omelette of ham garnished with spiced sorrel, a
+fillet of veal with compote of prunes; for dessert, crystallised fruit; the
+whole washed down with sweet Moselle.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Voilà ce qu’un vieux papier allait coûter à mon oncle. Ma foi,  en
+qualité de neveu dévoué, je me crus obligé de manger pour lui, et même
+pour moi. Ce que je fis en conscience.</p>
+  </td>
+  <td class="en">
+<p>All this my uncle was going to sacrifice to a bit of old parchment. As an
+affectionate and attentive nephew I considered it my duty to eat for him as
+well as for myself, which I did conscientiously.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>«&#160;Je n’ai jamais vu chose pareille&#160;! disait la bonne Marthe. M.
+Lidenbrock qui n’est pas à table&#160;!</p>
+  </td>
+  <td class="en">
+<p>"I have never known such a thing," said Martha. "M. Liedenbrock is not at
+table!"</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— C’est à ne pas le croire.</p>
+  </td>
+  <td class="en">
+<p>"Who could have believed it?" I said, with my mouth full.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Cela présage quelque événement grave&#160;!&#160;» reprenait la
+vieille servante, hochant la tête.</p>
+  </td>
+  <td class="en">
+<p>"Something serious is going to happen," said the servant, shaking her
+head.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Dans mon opinion, cela ne présageait rien, sinon une scène épouvantable
+quand mon oncle trouverait son dîner dévoré.</p>
+  </td>
+  <td class="en">
+<p>My opinion was, that nothing more serious would happen than an awful scene
+when my uncle should have discovered that his dinner was devoured.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>J’en étais à ma dernière crevette, lorsqu’une voix retentissante
+m’arracha aux voluptés du dessert. Je ne fis qu’un bond de la salle dans
+le cabinet.</p>
+  </td>
+  <td class="en">
+<p>I had come to the last of the fruit when a very loud voice tore me away from
+the pleasures of my dessert. With one spring I bounded out of the dining-room
+into the study.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <div class="prev"><a href="A_Journey_to_the_Interior_of_the_Earth_01.html">←</a></div>
+  </td>
+  <td class="en">
+    <div class="next"><a href="A_Journey_to_the_Interior_of_the_Earth_03.html">→</a></div>
+  </td>
+</tr>
+
+</table>
+
+</body>
+</html>
